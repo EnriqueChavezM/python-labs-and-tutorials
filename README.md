@@ -18,7 +18,7 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 ```text
 .
 ├── 01_fundamentos/          # Sintaxis básica, tipos de datos, estructuras de control
-│   ├── 
+│   ├── 01_Variables.py
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
 
 ```
