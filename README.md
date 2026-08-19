@@ -20,3 +20,20 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 ├── 01_fundamentos/          # Sintaxis básica, tipos de datos, estructuras de control
 │   ├── 
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
+
+```
+---
+
+## 📚 Cursos y Recursos
+
+- 🎓 **[Introducción a la programación con Python](https://lms.santanderopenacademy.com/courses/508)** — *Santander Open Academy*
+- 🎓 **[Curso de Python](https://edutin.com/curso-de-python)** — *Edutin Academy*
+
+
+---
+
+## 👤 Autor
+
+Desarrollado con dedicación por **Enrique Chávez Márquez**.
+- 🐙 **GitHub:** [@EnriqueChavezM](https://github.com/EnriqueChavezM)
+- 💼 **LinkedIn:** [Enrique Chavez Marquez](https://www.linkedin.com/in/enrique-chavez-marquez-8a5a19326/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAiL37dQVSqStvMo5Ozc5Xw%3D%3D)
