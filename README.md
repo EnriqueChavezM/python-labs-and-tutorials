@@ -21,6 +21,8 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 │   ├── 01_Variables/
 │   ├── 02_Operadores/
 │   ├── 03_Estructuras_de_Control/
+│   ├── 04_Estructuras_de_Datos/
+│   ├── 05_Funciones
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
 
 ```
@@ -30,7 +32,6 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 - 🧩 **[Coddy - Python Fundamentals](https://coddy.tech/journeys/python/fundamentals)** — *Plataforma interactiva de resolución de retos y fundamentos.*
 - 🎓 **[Introducción a la programación con Python](https://lms.santanderopenacademy.com/courses/508)** — *Santander Open Academy*
 - 🎓 **[Curso de Python](https://edutin.com/curso-de-python)** — *Edutin Academy*
-
 
 ---
 
