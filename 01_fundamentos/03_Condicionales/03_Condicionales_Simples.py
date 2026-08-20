@@ -1,18 +1,19 @@
 """
 Primer  ejemplo
-    Crear un programa que pida al usuario el numero  de  años de su computadora y que le diga si es una computadora nueva, usada o vieja.
+solicitar al usuario que ingrese 2 numeros que ejecuten el if  para que al  final el  tercer numero sea 3
 
-    Condiciones:
-    - Si la computadora tiene menos o igual de 2 años, es nueva.
-    - Si la computadora tiene más de 2 años, entonces es vieja.
+    condiciones:
+    - Si el primer numero es menor que el segundo y el segundo numero es mayor o igual a 10, entonces el tercer numero sera 2.
 
-#pedir al usuario que ingrese el numero de años de su computadora
-anios = int(input("¿Cuantos años tiene su computadora?: "))
-
-if anios >= 0 and anios <= 2:
-    print("La computadora es nueva.")
-else:
-    print("La computadora es vieja.")
+#pedir al usuario que ingrese 2 numeros
+num1 = int(input("Ingrese el primer numero: "))
+num2 = int(input("Ingrese el segundo numero: "))
+num3 = 0
+if num1 < num2 and num2 >= 10:
+    num3 = 2
+num3 += 1
+print(f"El tercer numero es: {num3}")
+print(f"num3 = 3? {num3 == 3}")
 
 """
 
@@ -23,7 +24,7 @@ Segundo ejemplo
     Condiciones:
     - Si el usuario tiene menos de 18 años, es menor de edad.
     - Si el usuario tiene 18 años o más, es mayor de edad.
-"""
+
 
 #pedir al usuario que ingrese su edad
 edad = int(input("¿Cuantos años tienes?: "))
@@ -33,4 +34,22 @@ else:
     print("Eres mayor de edad.")
 print("Fin del programa.")
 
+"""
 
+"""
+Tercer ejemplo
+    
+Crear un programa que pida al usuario el numero  de  años de su computadora y que le diga si es una computadora nueva, usada o vieja.
+
+    Condiciones:
+    - Si la computadora tiene menos o igual de 2 años, es nueva.
+    - Si la computadora tiene más de 2 años, entonces es vieja.
+"""
+
+#pedir al usuario que ingrese el numero de años de su computadora
+anios = int(input("¿Cuantos años tiene su computadora?: "))
+
+if anios >= 0 and anios <= 2:
+    print("La computadora es nueva.")
+else:
+    print("La computadora es vieja.")
