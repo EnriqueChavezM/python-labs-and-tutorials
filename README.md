@@ -19,6 +19,8 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 .
 ├── 01_fundamentos/          # Sintaxis básica, tipos de datos, estructuras de control
 │   ├── 01_Variables.py
+│   ├── 02_Operadores1.py
+│   ├── 02_Operadores2.py
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
 
 ```
