@@ -64,7 +64,7 @@ Cuarto ejemplo
     Condiciones:
     -El usuario puede decidir inicio, fin, y paso de la funcion
     -Imprimir cada numero en una linea
-"""
+
 #Pedir a usuario losparametros de la funcion
 inicio = int(input("Ingrese el punto de inicio:\n"))
 fin = int(input("Ingrese el punto de fin(no incluido): \n"))
@@ -73,3 +73,34 @@ paso = int(input("ingrese el paso de la funcion:\n"))
 #Bucle
 for i in range(inicio,fin,paso):
     print("→ " + str(i))
+
+"""
+
+"""
+Quinto ejemplo
+    Crea un programa que realice las siguientes tareas:
+        -Imprime todos los números del 30 al 80 (inclusive) que sean divisibles por 4.
+        -Imprime los primeros 8 números impares a partir del 15.
+        -Cuenta hacia atrás del 50 al 10 (inclusive), mostrando solo los números divisibles por 5.
+        -Calcula e imprime el producto de todos los números del 1 al 30 (inclusive) que sean divisibles por 3.
+
+"""
+print ("Numeros divisibles por 4 entre 30 - 80:")
+for i in range(30,81):
+    if i % 4 == 0:
+        print(i, end = ", ")    
+
+print ("\n \n Primeros 8 números impares a partir del 15:")
+for x in range(15,31,2):
+    print(x, end = ", ")
+
+print ("\n \n Cuenta regresiva, desde el 50 y divisibles por 5:")
+for y in range(50,9,-5):
+    print(y, end = ", ")
+
+print ("\n \n Producto de los numeros del 1 al 30 divisibles por 3:")
+total = 1
+for z in range(1,31):
+    if z % 3 == 0:
+        total *=  z
+print(total)
