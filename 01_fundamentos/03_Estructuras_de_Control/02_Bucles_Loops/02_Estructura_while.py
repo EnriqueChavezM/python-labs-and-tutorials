@@ -28,9 +28,25 @@ while contador <= num:
 
 """
 Tercer ejemplo
-    Calculadora de Indise de Masa Corporal(IMC)
+    Escribe un programa que reciba un número variable de valores de entrada.
+    -El primer valor de entrada indica cuántos números seguirán. 
+    -Los siguientes valores de entrada son números enteros que debes sumar.
+    -Al final, imprime la suma de todos los números de entrada (sin incluir el primero).
+
+entrada = int(input("Ingrese el total de entradas: \n → "))
+suma = 0
+i = 0
+while i < entrada:
+    num = int(input())
+    suma += num
+    i += 1
+print(suma) 
 """
 
+"""
+Cuarto ejemplo
+    Calculadora de Indise de Masa Corporal(IMC)
+"""
 print("Calculadora de IMC")
 contador = 0
 
@@ -55,4 +71,3 @@ while contador !=  2:
     else:
         print("Hasta pronto")
 print("Gracias por utlizar la calculadora de IMC")
-
