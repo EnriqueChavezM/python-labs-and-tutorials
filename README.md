@@ -20,7 +20,7 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 ├── 01_fundamentos/          # Sintaxis básica, tipos de datos, estructuras de control
 │   ├── 01_Variables/
 │   ├── 02_Operadores/
-│   ├── 03_Condicionales/
+│   ├── 03_Estructuras_de_Control/
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
 
 ```
