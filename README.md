@@ -32,6 +32,7 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 - 🧩 **[Coddy - Python Fundamentals](https://coddy.tech/journeys/python/fundamentals)** — *Plataforma interactiva de resolución de retos y fundamentos.*
 - 🎓 **[Introducción a la programación con Python](https://lms.santanderopenacademy.com/courses/508)** — *Santander Open Academy*
 - 🎓 **[Curso de Python](https://edutin.com/curso-de-python)** — *Edutin Academy*
+- 📖 **[Documentación Oficial de Python](https://docs.python.org/es/3/)**
 
 ---
 
