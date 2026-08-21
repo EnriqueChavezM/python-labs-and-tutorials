@@ -1,9 +1,9 @@
 #uso de diccionarios #
 print("Uso de diccionarios")
 persona = {
-    "nombre": "Juan",
-    "edad": 30,
-    "ciudad": "Madrid"
+    "nombre", "Juan",
+    "edad", 30,
+    "ciudad", "Madrid"
 }
 print("Diccionario persona:", persona)  # Imprime {'nombre': 'Juan', 'edad': 30, 'ciudad': 'Madrid'}   
 print("Acceso a valores del diccionario:")
@@ -14,9 +14,9 @@ print("Ciudad:", persona["ciudad"])  # Imprime "Madrid"
 #Uso de metodos de diccionarios #
 print("\nUso de métodos de diccionarios")
 persona = {
-    "nombre": "Juan",
-    "edad": 30,
-    "ciudad": "Madrid"
+    "nombre", "Juan",
+    "edad", 30,
+    "ciudad", "Madrid"
 }
 print("Diccionario persona:", persona)  # Imprime {'nombre': 'Juan', 'edad': 30, 'ciudad': 'Madrid'}
 print(persona.keys())  # Imprime dict_keys(['nombre', 'edad', 'ciudad'])
