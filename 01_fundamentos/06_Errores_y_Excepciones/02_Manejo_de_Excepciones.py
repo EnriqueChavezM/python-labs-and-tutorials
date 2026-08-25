@@ -32,6 +32,7 @@ except ZeroDivisionError:
     # SEGUNDO EXCEPT: Se activa si el segundo número es 0
     print("❌ Error: Matemáticamente no se puede dividir entre cero.")
 """
+
 #Declaracion finally
 try:
     print("1. Intentando abrir y escribir en el archivo...")
