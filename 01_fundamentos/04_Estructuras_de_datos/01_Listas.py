@@ -24,14 +24,20 @@ frutas.remove("banana")
 print("Metodo remove: ",frutas)  # Imprime ["manzana", "uva", "naranja", "pera"]
 
 fruta_eliminada = frutas.pop(2)
-print("Metodo pop: ",frutas)  # Imprime ["manzana", "uva", "pera"]
+print("Lista despues de : ",frutas)  # Imprime ["manzana", "uva", "pera"]
 print("Eliminada por pop: ",fruta_eliminada)  # Imprime "naranja"
+
+fruta_eliminada = frutas[0]
+print("Eliminada por del : ",fruta_eliminada)  # Imprime "naranja"
+del frutas[0]
+print("Lista despues de del: ",frutas)  # Imprime ["manzana", "uva", "pera"]
 
 frutas.sort()
 print("Metodo sort: ",frutas)  # Imprime ["manzana", "pera", "uva"]
 
 frutas.reverse()
 print("Metodo reverse: ",frutas)  # Imprime ["uva", "pera", "manzana"]
+
 
 Contarb = frutas.count("pera")
 print("Numero de veces que aparece pera en la lista: " + str(Contarb))
