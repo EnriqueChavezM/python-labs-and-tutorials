@@ -24,3 +24,7 @@ print(persona.values())  # Imprime dict_values(['Juan', 30, 'Madrid'])
 print(persona.items())  # Imprime dict_items([('nombre', 'Juan'), ('edad', 30), ('ciudad', 'Madrid')])
 persona.update({"profesion": "Ingeniero"})
 print("Diccionario persona actualizado:", persona)  # Imprime {'nombre': 'Juan', 'edad': 30, 'ciudad': 'Madrid', 'profesion': 'Ingeniero'}
+print("Valor a eliminar con del: "+ persona["ciudad"])
+del persona ["ciudad"]
+
+print("Diccionario persona actualizado:", persona)  # Imprime {'nombre': 'Juan', 'edad': 30, 'profesion': 'Ingeniero'}
