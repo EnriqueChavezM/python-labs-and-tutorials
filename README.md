@@ -18,13 +18,16 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 ```text
 .
 ├── 01_fundamentos/          # Sintaxis básica, tipos de datos, estructuras de control
-│   ├── 01_Variables/
-│   ├── 02_Operadores/
-│   ├── 03_Estructuras_de_Control/
-│   ├── 04_Entradas_y_Salidas/
-│   ├── 05_Estructuras_de_Datos/
-│   ├── 06_Funciones/
-│   ├── 07_Errores_y_Excepciones/
+│   ├── 01_Sintaxis/
+│   ├── 02_Entradas_y_Salidas/
+│   ├── 03_Variables/
+│   ├── 04_Operadores/
+│   ├── 05_Estructuras_de_Control/
+│   ├── 06_Estructuras_de_Datos/
+│   ├── 07_Funciones/
+│   ├── 08_Lectura_Escritura_Archivos/
+│   ├── 09_Errores_y_Excepciones/
+│   ├── 10_Módulos/
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
 
 ```
