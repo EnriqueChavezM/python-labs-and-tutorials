@@ -21,8 +21,10 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 │   ├── 01_Variables/
 │   ├── 02_Operadores/
 │   ├── 03_Estructuras_de_Control/
-│   ├── 04_Estructuras_de_Datos/
-│   ├── 05_Funciones
+│   ├── 04_Entradas_y_Salidas/
+│   ├── 05_Estructuras_de_Datos/
+│   ├── 06_Funciones/
+│   ├── 07_Errores_y_Excepciones/
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
 
 ```
