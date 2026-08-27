@@ -1,4 +1,4 @@
-Ignora
+Ignora/
 ~$tas_Python.docx
 notas.txt
-operaciones.cpython-314.pyc
+__pycache__/
