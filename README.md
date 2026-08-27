@@ -33,13 +33,25 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 ```
 ---
 
-## 📚 Cursos y Recursos
+## 📚 Recursos
+
 - 🧩 **[Coddy - Python Fundamentals](https://coddy.tech/journeys/python/fundamentals)** — *Plataforma interactiva de resolución de retos y fundamentos.*
-- 🎓 **[Introducción a la programación con Python](https://lms.santanderopenacademy.com/courses/508)** — *Santander Open Academy*
-- 🎓 **[Curso de Python](https://edutin.com/curso-de-python)** — *Edutin Academy*
+
 - 📘 **[Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)** — *Al Sweigart*
+
 - 📖 **[El Libro De Python](https://ellibrodepython.com/)** — *Alvaro Revuelta*
+
 - 📖 **[Documentación Oficial de Python](https://docs.python.org/es/3/)**
+
+---
+
+## 🏆 Certificaciones y Cursos
+
+- 🎓 **[Introducción a la programación con Python](https://lms.santanderopenacademy.com/courses/508)** — *Santander Open Academy*
+- 📜 **Introducción a la programación con Python** — *Santander Open Academy* | [Ver Certificado](./docs/Certificado_Finalizacion_Enrique_ch.pdf)
+
+- 🎓 **[Curso de Python](https://edutin.com/curso-de-python)** — *Edutin Academy*
+
 
 ---
 
