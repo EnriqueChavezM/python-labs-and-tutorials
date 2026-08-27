@@ -27,7 +27,12 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 │   ├── 07_Funciones/
 │   ├── 08_Lectura_Escritura_Archivos/
 │   ├── 09_Errores_y_Excepciones/
-│   ├── 10_Módulos/
+├── 02_Módulos_Librerias/    # Elaboración y desarrollo de módulos individuales y bibliotecas del sistema.
+│   ├── 01_Importar_Modulos/
+│   ├── 02_Librerias/
+│   ├── 03_Modulo_Personalisado_Paquete/
+│   │   ├── Paquete/
+│   03_programacion_orientada_objetos/ # Clases, herencia, polimorfismo y decoradores
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
 
 ```
@@ -51,7 +56,6 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 - 📜 **Introducción a la programación con Python** — *Santander Open Academy* | [Ver Certificado](./docs/Certificado_Finalizacion_Enrique_ch.pdf)
 
 - 🎓 **[Curso de Python](https://edutin.com/curso-de-python)** — *Edutin Academy*
-
 
 ---
 
