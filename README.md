@@ -33,7 +33,13 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 │   ├── 03_Modulo_Personalisado_Paquete/
 │   │   ├── Paquete/
 │   03_programacion_orientada_objetos/ # Clases, herencia, polimorfismo y decoradores
+│   ├── 01_Clases_y_Objetos/
+│   ├── 02_Encapsulamiento/
+│   ├── 03_Herencia/
+│   ├── 04_Polimorfismo/
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
+│   ├── 01_Libreria/
+│   ├── 02_Constancias/
 
 ```
 ---
@@ -53,9 +59,10 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 ## 🏆 Certificaciones y Cursos
 
 - 🎓 **[Introducción a la programación con Python](https://lms.santanderopenacademy.com/courses/508)** — *Santander Open Academy*
-- 📜 **Introducción a la programación con Python** — *Santander Open Academy* | [Ver Certificado](./docs/Certificado_Finalizacion_Enrique_ch.pdf)
+- 📜 **Introducción a la programación con Python** — *Santander Open Academy* | [Ver Certificado](./docs/02_Constancias/Certificado_Finalizacion_Enrique_ch.pdf)
 
 - 🎓 **[Curso de Python](https://edutin.com/curso-de-python)** — *Edutin Academy*
+- 📜 **Desarroyador Python** — *Edutin Academy* | [Ver Certificado](./docs/02_Constancias/Certificado_de_estudio_2026-08-28.pdf)
 
 ---
 
