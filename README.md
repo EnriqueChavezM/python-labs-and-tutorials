@@ -1,6 +1,6 @@
 # Python Learning Journey 🐍
 
-<img src="/docs/icono_py.jpg" align="left" width="150">
+<img src="/docs/icono_py.jpg" align="left" width="100">
 
 Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y documentación del lenguaje **Python**. En este espacio voy consolidando conceptos teóricos, ejercicios prácticos, proyectos pequeños y notas sobre desarrollo de software, manipulación de datos y automatización.
 
