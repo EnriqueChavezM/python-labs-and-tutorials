@@ -1,5 +1,5 @@
 nombre = "Enrique"      #variable de tipo string
-numero = 1234567890     #variable de tipo integer
+numero = 1234567890     #variable de tipo int
 altura = 1.80           #variable de tipo float
 x = True                #variable de tipo boolean
 
