@@ -8,7 +8,7 @@ Antes de sumergirnos en conceptos más avanzados, es importante familiarizarse c
 
 - [Indentacón](#indentacón)
 - [Comentarios](#comentarios)
-- [Ejemplo Practico](/01-Fundamentos/01-Sintaxis/02_Ejemplo.py)
+- [Ejemplo Practico](#ejemplo-practico)
 
 ---
 
@@ -40,5 +40,11 @@ para varias lineas
 
 """
 ```
+
+---
+
+## Ejemplo Practico
+
+- [Ejemplo Sintaxis](/01-Fundamentos/01-Sintaxis/02_Ejemplo.py)
 
 ---

@@ -10,7 +10,7 @@ En Python, no es necesario declarar una variable (especificando el tipo de datos
 - [Tipo de Variables](#tipo-de-variables)
 - [Casteo de datos o casting](#casteo-de-datos-o-casting)
   - [Tipos de Casting que Existen](#tipos-de-casting-que-existen)
-- [Ejemplo practico](/01-Fundamentos/03-Variables/02_Ejemplo_Variables.py)
+- [Ejemplo practico](#ejemplo-practico)
 
 ---
 
@@ -59,3 +59,11 @@ Para concatenar una variable de tipo *int* es necesario primero convertir el val
 
 > [!NOTA]
 > No todo se puede castear a cualquier cosa. Si intentas hacer *int("hola")*, el programa va a fallar ``(Value Error)`` porque la palabra "hola" no tiene una representación numérica lógica.
+
+---
+
+## Ejemplo Practico
+
+- [Ejemplo Variables](/01-Fundamentos/03-Variables/02_Ejemplo_Variables.py)
+
+---

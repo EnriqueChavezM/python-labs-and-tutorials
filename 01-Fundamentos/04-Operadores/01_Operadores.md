@@ -8,7 +8,7 @@
   - [Aritméticos de Asignación](#aritméticos-de-asignación)
 - [Lógicos](#lógicos)
 - [Relacionales](#relacionales)
-- [Ejemplo Practico](/01-Fundamentos/04-Operadores/02_Ejemplo_Operadores.py)
+- [Ejemplo Practico](#ejemplo-practico)
 
 ---
 
@@ -67,5 +67,11 @@ Los operadores relacionales se utilizan para comparar dos valores, que pueden se
 | > | Mayor que | X = (11 > 22) | X = False |
 | <= | Menor o igual que | X = (12 <= 15) | X = True |
 | >= | Mayor o igual que | X = (12 >= 15) | X = False |
+
+---
+
+## Ejemplo Practico
+
+- [Ejemplo Operadores](/01-Fundamentos/04-Operadores/02_Ejemplo_Operadores.py)
 
 ---

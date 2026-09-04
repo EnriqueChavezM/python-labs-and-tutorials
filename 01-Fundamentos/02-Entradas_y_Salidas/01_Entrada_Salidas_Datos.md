@@ -13,7 +13,7 @@
   - [Parámetros ocultos](#parámetros-ocultos)
   - [Caracteres especiales](#caracteres-especiales)
   - [Trucos visuales](#trucos-visuales)
-- [Ejemplo practico](/01-Fundamentos/02-Entradas_y_Salidas/02_Ejemplo_Entradas_Salidas.py)
+- [Ejemplo practico](#ejemplo-practico)
 
 ---
 
@@ -162,5 +162,11 @@ Puedes meter comandos ocultos dentro del texto usando la barra invertida ``\``:
     3. Salir
     """) 
     ```
+
+---
+
+## Ejemplo Practico
+
+- [Ejemplo I/O](/01-Fundamentos/02-Entradas_y_Salidas/02_Ejemplo_Entradas_Salidas.py)
 
 ---
