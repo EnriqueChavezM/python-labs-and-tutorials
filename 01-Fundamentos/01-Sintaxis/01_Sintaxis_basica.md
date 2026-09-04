@@ -1,4 +1,4 @@
-# Sintaxis Básica
+# 1. Sintaxis Básica
 
 Antes de sumergirnos en conceptos más avanzados, es importante familiarizarse con algunos aspectos básicos de la sintaxis de Python.
 
