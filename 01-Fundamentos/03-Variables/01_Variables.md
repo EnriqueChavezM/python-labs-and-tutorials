@@ -18,12 +18,16 @@ En Python, no es necesario declarar una variable (especificando el tipo de datos
 
 Las variables definidas dentro de una función tienen un alcance local, lo que significa que solo son accesibles dentro de la función. Por otro lado, las variables definidas fuera de cualquier función tienen un alcance global y pueden ser accedidas desde cualquier parte del programa.
 
+---
+
 ## Tipo de Variables
 
 - **Enteros (int):** Son todos los números positivos o negativos, incluido el 0. Este tipo de dato no tiene límites en Python.
 - **Flotante (float):** Son todos los números que incluyan decimales, es decir, que tengan un punto p "separador" entre 2 números.
 - **Cadenas (strings):** Es cualquier texto encerrado entre comillas, sin importar si son simples (``' '``) o dobles (``" "``). 
 - **Booleanos (bool):** Es el tipo de variable que devuelve únicamente un True si el valor es verdadero y un False si el valor es falso.
+
+---
 
 ## Casteo de datos o casting
 
