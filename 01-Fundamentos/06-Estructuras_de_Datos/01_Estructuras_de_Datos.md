@@ -61,31 +61,32 @@ print(Nombre_lista[-n])  #Imprie el dato del indice -n
 Las listas tienen varios métodos incorporados que nos permiten manipular y modificar los elementos de la lista.
 Algunos métodos comunes son:
 
-- ``.append(elemento)``: agrega un elemento al final de la lista.
+- *.append(elemento)*: agrega un elemento al final de la lista.
   - ***Sintaxis:*** `Nombre_lista.append(elemento)`
-- ``.insert(indice, elemento)``: inserta un elemento en una posición específica de la lista.
+- *.insert(indice, elemento)*: inserta un elemento en una posición específica de la lista.
   - ***Sintaxis:*** `Nombre_lista.insert(indice, elemento)`
-- ``.remove(elemento)``: elimina la primera aparición de un elemento en la lista.
+- *.remove(elemento)*: elimina la primera aparición de un elemento en la lista.
   - ***Sintaxis:*** `Nombre_lista.remove(elemento)`
-- ``.pop(indice)``: elimina y devuelve el elemento en una posición específica de la lista.
+- *.pop(indice)*: elimina y devuelve el elemento en una posición específica de la lista.
   - ***Sintaxis:*** `Nombre_lista.pop(indice)`
-- ``.sort()``: ordena los elementos de la lista en orden ascendente.
+- *.sort()*: ordena los elementos de la lista en orden ascendente.
   - ***Sintaxis:*** `Nombre_lista.sort()`
-- ``.reverse()``: invierte el orden de los elementos en la lista.
+- *.reverse()*: invierte el orden de los elementos en la lista.
   - ***Sintaxis:*** `Nombre_lista.reverse()`
-- ``.clear()``: Elimina todos los elementos de una lista
+- *.clear()*: Elimina todos los elementos de una lista
   - ***Sintaxis:*** `Nombre_lista.clear()`
-- ``.count(elemento)``:  Entrega el numero de veces que se repite un elemento en la lista
+- *.count(elemento)*:  Entrega el numero de veces que se repite un elemento en la lista
   - ***Sintaxis:*** `Nombre_lista.count(elemento)`
-- ``.index(elemento)``: Sirve para buscar la primer coincidencia de un elemento y saber en qué posición (índice) se encuentra
+- *.index(elemento)*: Sirve para buscar la primer coincidencia de un elemento y saber en qué posición (índice) se encuentra
   - ***Sintaxis:*** `Nombre_lista.index(elemento)`
-- ``del Lista [elemento]``:  Borra un elemento en un índice específico o corta secciones enteras.
+- *del Lista [elemento]*:  Borra un elemento en un índice específico o corta secciones enteras.
   - ***Sintaxis:*** `del Nombre_lista`
 
 ### Listas de Comprensión
 
 Las listas de comprensión son una forma concisa de crear nuevas listas basadas en una secuencia existente. Permiten filtrar y transformar los elementos de una lista en una sola línea de código.
 ***Sintaxis***
+
 ```python
 Nueva_lista = [exprecion for elemento in Nombre_lista if condicion]
 ```
