@@ -44,7 +44,7 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 │   └── 04_Polimorfismo/
 │   04_Retos-y_ejercicios/
 │   ├── 01_Edutin Academy/
-    └── 02_Coddy/
+│   └── 02_Coddy/
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
     ├── 01_Bibliografia
     └── 02_Constancias
