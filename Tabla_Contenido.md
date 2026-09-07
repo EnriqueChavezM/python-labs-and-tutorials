@@ -1,4 +1,5 @@
-<img src="/docs/03_Imagenes/icono_py.jpg"  width="100">
+
+<img src="/docs/03_Imagenes/icono_py.jpg" align="center"  width="100">
 
 ---
 
