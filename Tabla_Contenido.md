@@ -1,11 +1,8 @@
-
-<img src="/docs/03_Imagenes/icono_py.jpg" align="center"  width="100">
-
----
+<img src="/docs/03_Imagenes/icono_py.jpg" align="left" width="100">
 
 # Tabla de contenido
 
----
+<br clear="left" /> <!-- Limpia el flujo flotante -->
 
 ## 1. Fundamentos
 
@@ -44,6 +41,7 @@
 2. [Coddy](/04-Retos_y_Ejercicios/02-Coddy/)
 
 ---
+
 ## docs
 
 1. [Bibliografia](/docs/01_Libreria/)
