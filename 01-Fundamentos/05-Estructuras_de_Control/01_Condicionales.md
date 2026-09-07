@@ -38,6 +38,9 @@ if "Condicional":
 **Diagrama de flujo**
 
 ```mermaid
+---
+title: Estructura if
+---
 graph TD
     A([Inicio]) --> B{if Condicional:}
     B -- Sí --> C[Acción a Realizar si la condición es verdad]
@@ -60,6 +63,9 @@ else:
 **Diagrama de flujo**
 
 ```mermaid
+---
+title: Estructura if - else
+---
 graph TD
     A([Inicio]) --> B{if Condicional:}
     B -- Sí --> C[Acción a Realizar]
@@ -85,6 +91,9 @@ else:
 **Diagrama de flujo**
 
 ```mermaid
+---
+title: Estructura if - elif - else
+---
 graph TD
     A([Inicio]) --> B{if Condicional:}
     B -- Sí --> C[Acción a Realizar]
@@ -126,6 +135,9 @@ for i  in range(x,y,z):
 **Diagrama de flujo**
 
 ```mermaid
+---
+title: Estructura for
+---
 graph TD
     A([Inicio]) --> B[/"for i in range(x,y,z)"\]
     B --> C[/i = x/]
@@ -151,6 +163,9 @@ while "Condicional":
 **Diagrama de flujo**
 
 ```mermaid
+---
+title: Estructura while
+---
 graph TD
     A([Inicio]) --> B{while Condicional:}
     B -- Si --> C[Acción a Realizar]
