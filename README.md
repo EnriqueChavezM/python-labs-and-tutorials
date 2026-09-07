@@ -1,6 +1,6 @@
 # Python Learning Journey 🐍
 
-<img src="/docs/icono_py.jpg" align="left" width="100">
+<img src="/docs/03_Imagenes/icono_py.jpg" align="left" width="100">
 
 Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y documentación del lenguaje **Python**. En este espacio voy consolidando conceptos teóricos, ejercicios prácticos, proyectos pequeños y notas sobre desarrollo de software, manipulación de datos y automatización.
 
@@ -17,6 +17,8 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 ---
 
 ## 🗂️ Estructura del Repositorio
+
+***[Ver Tabla de Contenido](/Tabla_Contenido.md)***
 
 ```text
 .
@@ -41,13 +43,14 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 │   ├── 03_Herencia/
 │   └── 04_Polimorfismo/
 │   04_Retos-y_ejercicios/
-│   ├── 03_Herencia/
-│   └── 04_Polimorfismo/
-└── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
-    ├── 01_Edutin Academy/
+│   ├── 01_Edutin Academy/
     └── 02_Coddy/
+└── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
+    ├── 01_Bibliografia
+    └── 02_Constancias
 
 ```
+
 ---
 
 ## 📚 Recursos
