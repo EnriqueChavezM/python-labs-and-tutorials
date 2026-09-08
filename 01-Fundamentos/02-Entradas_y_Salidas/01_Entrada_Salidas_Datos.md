@@ -170,3 +170,11 @@ Puedes meter comandos ocultos dentro del texto usando la barra invertida ``\``:
 - [Ejemplo I/O](/01-Fundamentos/02-Entradas_y_Salidas/02_Ejemplo_Entradas_Salidas.py)
 
 ---
+
+[Inicio](#2-entradas-y-salidas-de-datos-io)
+
+---
+
+[Tabla de contenido principal](/Tabla_Contenido.md)
+
+---

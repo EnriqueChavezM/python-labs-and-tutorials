@@ -109,3 +109,11 @@ Nombre_funcion(clave1 = valor1, clave2 = valor2, ..., claven = valorn)
 - [Ejemplo Funciones Posicionales](/01-Fundamentos/07-Funciones/03_Funciones_posicionales.py)
 
 ---
+
+[Inicio](#7-funciones)
+
+---
+
+[Tabla de contenido principal](/Tabla_Contenido.md)
+
+---

@@ -82,3 +82,11 @@ Para que Python reconozca una carpeta como un paquete, tradicionalmente debe con
 - [Modulo Personalisado y Paquete](/02-Modulos_librerias/02-Modulo_Personalizado_Paquete/02_Modulo_personalizado.py)
 
 ---
+
+[Inicio](#2-módulos-personalizados)
+
+---
+
+[Tabla de contenido principal](/Tabla_Contenido.md)
+
+---

@@ -14,15 +14,15 @@
 6. [Estructuras de Datos](/01-Fundamentos/06-Estructuras_de_Datos/01_Estructuras_de_Datos.md)
 7. [Funciones](/01-Fundamentos/07-Funciones/01_Funciones.md)
 8. [Lectura y Escritura de Archivos](/01-Fundamentos/08-Lectura_Escritura_Archivos/01_Lectura_y_Escritura_de_Archivos.md)
-9. [Errores_y_Excepciones](/01-Fundamentos/09-Errores_y_Excepciones/01_Manejo_de_Errores.md)
+9. [Errores y Excepciones](/01-Fundamentos/09-Errores_y_Excepciones/01_Manejo_de_Errores.md)
 
 ---
 
 ## 2. Módulos y Librerías
 
-1. [Importar_Modulos]
-2. [Librerias]
-3. [Modulos Personalisados y Paquete]
+1. [Importar_Modulos](/02-Modulos_librerias/01-Importar_Modulos/01_Importar_modulos.md)
+2. [Modulos Personalizados y Paquete](/02-Modulos_librerias/02-Modulo_Personalizado_Paquete/01_Modulo_Personalizados.md)
+3. [Librerias Estandar](/02-Modulos_librerias/03-Librerias_Estandar/01_Librerias.md)
 
 ---
 
@@ -47,5 +47,9 @@
 1. [Bibliografia](/docs/01_Libreria/)
 2. [Constancias](/docs/02_Constancias/)
 3. [Imagenes](/docs/03_Imagenes/)
+
+---
+
+[Volver a README](/README.md)
 
 ---

@@ -48,3 +48,11 @@ para varias lineas
 - [Ejemplo Sintaxis](/01-Fundamentos/01-Sintaxis/02_Ejemplo.py)
 
 ---
+
+[Inicio](#1-sintaxis-básica)
+
+---
+
+[Tabla de contenido principal](/Tabla_Contenido.md)
+
+---

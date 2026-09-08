@@ -250,3 +250,13 @@ Los conjuntos en Python tienen varios métodos incorporados para manipular y acc
 - [Ejemplo Tuplas](/01-Fundamentos/06-Estructuras_de_Datos/03_Tuplas.py)
 - [Ejemplo Diccionarios](/01-Fundamentos/06-Estructuras_de_Datos/04_Diccionarios.py)
 - [Ejemplo Conjuntos](/01-Fundamentos/06-Estructuras_de_Datos/05_Conjuntos.py)
+
+---
+
+[Inicio](#6-estructuras-de-datos)
+
+---
+
+[Tabla de contenido principal](/Tabla_Contenido.md)
+
+---

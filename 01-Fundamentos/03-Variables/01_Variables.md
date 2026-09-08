@@ -67,3 +67,11 @@ Para concatenar una variable de tipo *int* es necesario primero convertir el val
 - [Ejemplo Variables](/01-Fundamentos/03-Variables/02_Ejemplo_Variables.py)
 
 ---
+
+[Inicio](#3-variables)
+
+---
+
+[Tabla de contenido principal](/Tabla_Contenido.md)
+
+---

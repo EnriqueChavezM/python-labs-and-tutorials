@@ -1,4 +1,4 @@
-# 8.Lectura y Escritura de Archivos
+# 8. Lectura y Escritura de Archivos
 
 ---
 
@@ -71,5 +71,13 @@ with open("Nombre_archivo.txt", "modo", encoding="utf-8") as archivo:
 
 - [Ejemplo Lectura de Archivos](/01-Fundamentos/08-Lectura_Escritura_Archivos/02_Lectura_Archivos.py)
 - [Ejemplo Escritura de Archivos](/01-Fundamentos/08-Lectura_Escritura_Archivos/03_Escritura_Archivos.py)
+
+---
+
+[Inicio](#8lectura-y-escritura-de-archivos)
+
+---
+
+[Tabla de contenido principal](/Tabla_Contenido.md)
 
 ---

@@ -75,3 +75,11 @@ Los operadores relacionales se utilizan para comparar dos valores, que pueden se
 - [Ejemplo Operadores](/01-Fundamentos/04-Operadores/02_Ejemplo_Operadores.py)
 
 ---
+
+[Inicio](#4-operadores)
+
+---
+
+[Tabla de contenido principal](/Tabla_Contenido.md)
+
+---

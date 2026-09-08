@@ -114,3 +114,11 @@ except Nombre_Error as error:
 - [Excepciones de Usuario](/01-Fundamentos/09-Errores_y_Excepciones/04_Excepciones_Usuario.py)
 
 ---
+
+[Inicio](#9-manejo-de-errores-y-excepciones)
+
+---
+
+[Tabla de contenido principal](/Tabla_Contenido.md)
+
+---

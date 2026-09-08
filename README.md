@@ -34,15 +34,15 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 │   └── 09_Errores_y_Excepciones/
 ├── 02_Módulos_Librerias/    # Elaboración y desarrollo de módulos individuales y bibliotecas del sistema.
 │   ├── 01_Importar_Modulos/
-│   ├── 02_Librerias/
-│   └── 03_Modulo_Personalisado_Paquete/
+│   ├── 03_Modulo_Personalisado_Paquete/
 │       └── Paquete/
-│   03_programacion_orientada_objetos/ # Clases, herencia, polimorfismo y decoradores
+│   └── 02_Librerias_Estandar/
+├── 03_programacion_orientada_objetos/ # Clases, herencia, polimorfismo y decoradores
 │   ├── 01_Clases_y_Objetos/
 │   ├── 02_Encapsulamiento/
 │   ├── 03_Herencia/
 │   └── 04_Polimorfismo/
-│   04_Retos-y_ejercicios/
+├── 04_Retos-y_ejercicios/
 │   ├── 01_Edutin Academy/
 │   └── 02_Coddy/
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos

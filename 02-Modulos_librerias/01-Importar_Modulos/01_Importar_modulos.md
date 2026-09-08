@@ -54,3 +54,11 @@ import Nombre_Modulo as  alias
 - [Ejemplo Importar Modulo](/02-Modulos_librerias/01-Importar_Modulos/02_Importar_modulos.py)
 
 ---
+
+[Inicio](#1-importar-módulos)
+
+---
+
+[Tabla de contenido principal](/Tabla_Contenido.md)
+
+---

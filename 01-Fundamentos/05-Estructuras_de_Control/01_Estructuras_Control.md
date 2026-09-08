@@ -230,3 +230,13 @@ El bucle itera sobre los números del 0 al 4, pero no se realiza ninguna acción
 - [Ejemplo Estructura `while`](/01-Fundamentos/05-Estructuras_de_Control/06_Estructura_while.py)
 - [Ejemplo Control de Bucle](/01-Fundamentos/05-Estructuras_de_Control/07_Control_Bucle.py)
 - [Ejemplo Bucles Anilados](/01-Fundamentos/05-Estructuras_de_Control/08_Bucles_anidados.py)
+
+---
+
+[Inicio](#5-estructuras-de-control)
+
+---
+
+[Tabla de contenido principal](/Tabla_Contenido.md)
+
+---
