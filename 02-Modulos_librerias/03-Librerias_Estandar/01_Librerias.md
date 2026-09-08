@@ -32,7 +32,7 @@ El módulo *math* es una librería integrada en Python que proporciona funciones
 
 El módulo *random* en Python se utiliza para generar elementos o números aleatorios.
 
-|Función | Descripcion | Sintaxis |
+| Función | Descripcion | Sintaxis |
 | :---: | :--- | :---: |
 | *randint(a, b)* | Genera un número entero aleatorio entre a y b **(ambos incluidos)**. | `random.randint(a, b)` |
 | *random()* | Genera un número decimal aleatorio entre 0.0 y 1.0 **(excluyendo el 1.0)**. | `random.random()` |
