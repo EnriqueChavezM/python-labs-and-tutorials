@@ -71,12 +71,3 @@ El módulo *datetime* en Python sirve para trabajar con fechas, horas e interval
 [Tabla de contenido principal](/Tabla_Contenido.md)
 
 ---
-
-<p id="botones-alineados" width="100%">
-  <a href="/Tabla_Contenido.md" align="left">
-    <img src="https://shields.io" alt="Tabla de contenido principal">
-  </a>
-  <a href="#3-librerias-estándar" style="float: right;" align="right">
-    <img src="https://shields.io" alt="Inicio">
-  </a>
-</p>
