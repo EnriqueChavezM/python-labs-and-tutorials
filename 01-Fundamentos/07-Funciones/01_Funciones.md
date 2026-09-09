@@ -47,6 +47,23 @@ def Nombre_funcion(parametros):
 Nombre_funcion(argumentos)
 ```
 
+Puedes asignar valores predeterminados a los argumentos de una función. Si no se proporciona un argumento al llamar a la función, se utiliza el valor predeterminado.
+
+**Ejemplo:**
+
+```python
+def saludar(nombre, saludo = "Hola"):
+    print (nombre, saludo)
+saludar("Kique") #Imprime: Kique Hola
+```
+
+> [!WARNING]
+> Los argumentos predeterminados siempre deben seguir a los argumentos no predeterminados en la definición de la función.
+> **Forma correcta:**
+> `def saludar(nombre, saludo = "Hola"):...`
+> **Forma incorrecta:**
+> `def saludar(saludo = "Hola", nombre):...`
+
 ### Funciones con número variable de argumentos
 
 Cuando pasamos un argumento a una función directamente y se asigna a un parámetro en función de su posición, se denomina argumento posiciónal. Así mismo, al declarar una función podemos definir una serie de parámetros con los que invocamos a dicha función, pero por regla general el número y el nombre de estos parámetros es inmutable, es decir que si defino que tendrá dos parámetros, entonces no podría agregar más.
