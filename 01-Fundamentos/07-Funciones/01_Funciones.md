@@ -11,6 +11,7 @@ Las funciones son bloques de código reutilizables que nos permiten encapsular t
   - [Funciones con número variable de argumentos](#funciones-con-número-variable-de-argumentos)
     - [`*args`](#args)
     - [`**kwargs`](#kwargs)
+- [Funciones Integradas](#funciones-integradas)
 - [Ejemplos Practicos](#ejemplos-practicos)
 
 ---
@@ -120,10 +121,26 @@ Nombre_funcion(clave1 = valor1, clave2 = valor2, ..., claven = valorn)
 
 ---
 
+## Funciones Integradas
+
+Son herramientas predefinidas que están siempre disponibles en el lenguaje sin necesidad de importar ningún módulo o librería adicional.
+
+| Funcion | Descripcion | Sintaxis |
+| :---: | :--- | :---: |
+| *print()* | Muestra un mensaje o el valor de una variable en la consola. | `print("Mensaje")` |
+| *len()* | Devuelve el número de elementos que tiene un objeto, como una cadena o una lista. | `len(objeto)` |
+| *type()* | Permite conocer el tipo de dato de un objeto. *type()* también es la metaclase por defecto en Python. Puedes usarla con 3 argumentos para crear una clase en tiempo de ejecución sin usar la palabra clave class. | `type(objeto)` |
+| *round()* | Redondea un número decimal al entero o decimales especificados(n_decimales). Cuando un número está exactamente a la mitad (.5), Python no redondea siempre hacia arriba, sino hacia el número par más cercano | `round(numero, n_decimales)` |
+
+---
+
 ## Ejemplos Practicos
 
 - [Ejemplo Funciones](/01-Fundamentos/07-Funciones/02_Funciones.py)
 - [Ejemplo Funciones Posicionales](/01-Fundamentos/07-Funciones/03_Funciones_posicionales.py)
+- [Ejemplo Funcion *len()*](/01-Fundamentos/07-Funciones/04_Funcion_len.py)
+- [Ejemplo Funcion *type()*](/01-Fundamentos/07-Funciones/05_Funcion_type.py)
+- [Ejemplo Funcion *round()*](/01-Fundamentos/07-Funciones/06_Funcion_round.py)
 
 ---
 
