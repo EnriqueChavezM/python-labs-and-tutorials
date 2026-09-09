@@ -26,6 +26,15 @@ print("OR: ", a or b)
 print("NOT a: ", not a)
 print("NOT b: ", not b)
 
+#Ley de De Morgan
+print("\nLey de De Morgan\n")
+print("Primera ley")
+print("(NOT A) or (NOT B) = ", (not a) or (not b))
+print("NOT (a AND b) = ", not (a and b))
+print("\nSegunda ley")
+print("(NOT A) and (NOT B) = ", (not a) and (not b))
+print("NOT (a OR b) = ", not (a or b))
+
 #Operadores relacionales
 print("\nOperadores relacionales\n")
 #Pedimos al usuario que ingrese dos numeros

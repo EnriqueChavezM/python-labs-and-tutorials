@@ -7,6 +7,7 @@
 - [Aritméticos](#aritméticos)
   - [Aritméticos de Asignación](#aritméticos-de-asignación)
 - [Lógicos](#lógicos)
+  - [Leyes de De Morgan](#leyes-de-de-morgan)
 - [Relacionales](#relacionales)
 - [Ejemplo Practico](#ejemplo-practico)
 
@@ -52,6 +53,14 @@ Los operadores lógicos nos permiten trabajar con valores de tipo booleano. Se u
 | ``and`` | Es una “y” lógica que devuelve un resultado *True* solo si todos sus operadores son *True* |
 | ``or`` | Es una “o” lógica que devuelve un resultado *True* solo si alguno sus operadores son *True* |
 | ``not`` | Es una negación que devuelve un resultado *True* si su argumento es *False* |
+
+### Leyes de De Morgan
+
+1. **Primera Ley:** Negar una expresión con *and* equivale a negar cada parte por separado y cambiar el *and* por un *or*.
+  **Ejemplo:** `not (A and B) = (not A) or (not B)`
+
+2. **Segunda Ley:** Negar una expresión con *or* equivale a negar cada parte por separado y cambiar el *or* por un *and*.
+  **Ejemplo:** `not (A or B) = (not A) and (not B)`
 
 ---
 
