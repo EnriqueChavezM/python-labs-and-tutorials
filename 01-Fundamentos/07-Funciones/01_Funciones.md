@@ -13,6 +13,7 @@ Las funciones son bloques de código reutilizables que nos permiten encapsular t
     - [`**kwargs`](#kwargs)
 - [Funciones Integradas](#funciones-integradas)
 - [Ejemplos Practicos](#ejemplos-practicos)
+- [Funciones de Conversión y Estructuras](#funciones-de-conversión-y-estructuras)
 
 ---
 
@@ -125,12 +126,22 @@ Nombre_funcion(clave1 = valor1, clave2 = valor2, ..., claven = valorn)
 
 Son herramientas predefinidas que están siempre disponibles en el lenguaje sin necesidad de importar ningún módulo o librería adicional.
 
-| Funcion | Descripcion | Sintaxis |
-| :---: | :--- | :---: |
+| Funcion | Descripcion | Sintaxis | Opciones |
+| :---: | :--- | :---: |  :
 | *print()* | Muestra un mensaje o el valor de una variable en la consola. | `print("Mensaje")` |
 | *len()* | Devuelve el número de elementos que tiene un objeto, como una cadena o una lista. | `len(objeto)` |
 | *type()* | Permite conocer el tipo de dato de un objeto. *type()* también es la metaclase por defecto en Python. Puedes usarla con 3 argumentos para crear una clase en tiempo de ejecución sin usar la palabra clave class. | `type(objeto)` |
 | *round()* | Redondea un número decimal al entero o decimales especificados(n_decimales). Cuando un número está exactamente a la mitad (.5), Python no redondea siempre hacia arriba, sino hacia el número par más cercano | `round(numero, n_decimales)` |
+| *enumerate()* | Toma una colección (como una lista, tupla o cadena) y devuelve un objeto enumerado que genera pares de (índice, elemento) en cada iteración. | `enumerate(iterable, start=0)` <br> -*iterable:* La lista, tupla, cadena o colección a recorrer. <br> -*start (opcional):* El número entero desde el cual empieza a contar el índice (por defecto es 0). |
+
+---
+
+## Funciones de Conversión y Estructuras
+
+Python incluye funciones para convertir tipos de datos y construir estructuras principales:
+
+- *int(), float(), str() y bool():* transforman valores entre enteros, decimales, textos y booleanos.
+- *list(), tuple(), set() y dict():* crean o convierten elementos en listas, tuplas, conjuntos y diccionarios.
 
 ---
 
