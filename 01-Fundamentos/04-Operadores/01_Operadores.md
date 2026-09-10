@@ -9,6 +9,7 @@
 - [Lógicos](#lógicos)
   - [Leyes de De Morgan](#leyes-de-de-morgan)
 - [Relacionales](#relacionales)
+- [Pertenencia *in*](#pertenencia-in)
 - [Ejemplo Practico](#ejemplo-practico)
 
 ---
@@ -79,9 +80,25 @@ Los operadores relacionales se utilizan para comparar dos valores, que pueden se
 
 ---
 
+## Pertenencia *in*
+
+El operador de pertenencia ``in`` se utiliza para verificar si un elemento o subcadena se encuentra dentro de una colección o secuencia (como listas, tuplas, cadenas de texto, diccionarios o conjuntos).
+
+Devuelve un valor booleano: *True* si el elemento está presente y *False* si no lo está. Su operador opuesto es ``not in``.
+
+***Sintaxis***
+
+```python
+elemento in secuencia
+elemento not in secuencia
+```
+
+---
+
 ## Ejemplo Practico
 
 - [Ejemplo Operadores](/01-Fundamentos/04-Operadores/02_Ejemplo_Operadores.py)
+- [Operadores de pertenencia](/01-Fundamentos/04-Operadores/03_Operador_Pertenencia_in.py)
 
 ---
 
