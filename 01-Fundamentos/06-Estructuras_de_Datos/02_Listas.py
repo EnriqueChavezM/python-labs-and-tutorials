@@ -51,3 +51,32 @@ print("Cuadrados de los números del 1 al 5:")
 numeros = [1, 2, 3, 4, 5]
 cuadrados = [x**2 for x in numeros if x % 2 == 0]  # Crea una nueva lista con los cuadrados de los números pares
 print("cuadrados de los números impares:", cuadrados)  # Imprime [4, 16]
+
+#Ejemplo de Slicing
+print("\nEjemplo de Slicing")
+
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print("Lista original: ", numbers)  # Imprime [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# Slicing basico
+print(f"Sublista de índices 2 a 5: {numbers[2:6]}")  # [2, 3, 4, 5]
+
+# Omitir inicio
+print(f"Primeros 5 elementos: {numbers[:5]}")   # [0, 1, 2, 3, 4]
+
+# Omitir final (va hasta el final)
+print(f"Elementos desde el índice 5 hasta el final: {numbers[5:]}")   # [5, 6, 7, 8, 9]
+
+# Cada segundo elemento del índice 1 al 8
+print(f"Cada segundo elemento del índice 1 al 8: {numbers[1:8:2]}")  # Output: [1, 3, 5, 7]
+
+# Cada tercer elemento del índice 2
+print(f"Cada tercer elemento del índice 2: {numbers[2::3]}")  # Output: [2, 5, 8]
+
+# Últimos tres elementos
+print(f"Últimos tres elementos: {numbers[-3:]}")  # Output: [7, 8, 9]
+
+# Todos los elementos excepto los dos últimos
+print(f"Todos los elementos excepto los dos últimos: {numbers[:-2]}")  # Output: [0, 1, 2, 3, 4, 5, 6, 7]
+
+# Invertir lista
+print(f"Lista invertida: {numbers[::-1]}")  # Output: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]

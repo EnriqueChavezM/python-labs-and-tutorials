@@ -10,6 +10,7 @@ Las estructuras de datos nos permiten organizar y almacenar datos de manera efic
   - [Creación y Acceso de Listas](#creación-y-acceso-de-listas)
   - [Métodos de listas](#métodos-de-listas)
   - [Listas de Comprensión](#listas-de-comprensión)
+  - [Segmentacion de Listas (*Slicing*)](#segmentacion-de-listas-slicing)
 - [Tuplas](#tuplas)
   - [Creación y Acceso de Tuplas](#creación-y-acceso-de-tuplas)
   - [Métodos de Tuplas](#métodos-de-tuplas)
@@ -103,6 +104,22 @@ cuadrados = [x**2 for x in numeros if x % 2 == 0]  # Crea una nueva lista con lo
 print("cuadrados de los números impares:", cuadrados)  # Imprime [4, 16]
 ```
 
+### Segmentacion de Listas (*Slicing*)
+
+Es una técnica fundamental que te permite extraer una sublista (o fragmento) a partir de una lista existente, indicando los índices de inicio, fin y paso.
+
+Es una herramienta imprescindible para la automatización, ya que permite filtrar lotes de datos, procesar registros (logs) en bloques o ignorar encabezados de archivos de forma muy eficiente.
+
+***Sintaxis***
+
+```python
+lista[inicio : fin : paso]
+```
+
+- *inicio*: El índice donde comienza la extracción **(incluido)**. Si se omite, toma por defecto 0.
+- *fin*: El índice donde termina la extracción **(excluido; no toma este elemento)**. Si se omite, va hasta el final de la lista.
+- *paso*: El salto entre elementos **(opcional, por defecto es 1)**.
+
 ---
 
 ## Tuplas
@@ -119,7 +136,7 @@ Para crear una tupla, encierra los elementos entre paréntesis:
 Nombre_Tupla = (dato1, dato2, ..., daton)
 ```
 
-Para acceder a los elementos, se utiliza el índice del elemento entre corchetes. Los índices comienzan desde 0.
+Para acceder a los elementos, se utiliza el índice del elemento entre corchetes. Los índices comienzan desde 0. También puedes acceder a los elementos desde el final de la lista utilizando índices negativos. El índice -1 representa el último elemento, -2 representa el penúltimo, y así sucesivamente.
 
 **Ejemplo**
 
