@@ -127,12 +127,14 @@ Nombre_funcion(clave1 = valor1, clave2 = valor2, ..., claven = valorn)
 Son herramientas predefinidas que están siempre disponibles en el lenguaje sin necesidad de importar ningún módulo o librería adicional.
 
 | Funcion | Descripcion | Sintaxis | Opciones |
-| :---: | :--- | :---: |  :
-| *print()* | Muestra un mensaje o el valor de una variable en la consola. | `print("Mensaje")` |
-| *len()* | Devuelve el número de elementos que tiene un objeto, como una cadena o una lista. | `len(objeto)` |
-| *type()* | Permite conocer el tipo de dato de un objeto. *type()* también es la metaclase por defecto en Python. Puedes usarla con 3 argumentos para crear una clase en tiempo de ejecución sin usar la palabra clave class. | `type(objeto)` |
-| *round()* | Redondea un número decimal al entero o decimales especificados(n_decimales). Cuando un número está exactamente a la mitad (.5), Python no redondea siempre hacia arriba, sino hacia el número par más cercano | `round(numero, n_decimales)` |
-| *enumerate()* | Toma una colección (como una lista, tupla o cadena) y devuelve un objeto enumerado que genera pares de (índice, elemento) en cada iteración. | `enumerate(iterable, start=0)` <br> -*iterable:* La lista, tupla, cadena o colección a recorrer. <br> -*start (opcional):* El número entero desde el cual empieza a contar el índice (por defecto es 0). |
+| :---: | :--- | :---: | :--- |
+| *print()* | Muestra un mensaje o el valor de una variable en la consola. | `print("Mensaje")` | |
+| *len()* | Devuelve el número de elementos que tiene un objeto, como una cadena o una lista. | `len(objeto)` | |
+| *type()* | Permite conocer el tipo de dato de un objeto. *type()* también es la metaclase por defecto en Python. Puedes usarla con 3 argumentos para crear una clase en tiempo de ejecución sin usar la palabra clave class. | <ul><li>`type(objeto)`</li><li>`type(nombre_de_clase, bases, atributos_y_metodos)` | <ul><li>``nombre_de_clase``: Cadena de texto con el nombre de la clase.</li><li>``bases``: Tupla con las clases de las cuales hereda (dejar vacía () si no hereda de ninguna).</li><li>``atributos_y_metodos``: Diccionario con los atributos y funciones de la clase.</li></ul> |
+| *round()* | Redondea un número decimal al entero o decimales especificados(n_decimales). Cuando un número está exactamente a la mitad (.5), Python no redondea siempre hacia arriba, sino hacia el número par más cercano | `round(numero, n_decimales)` | <ul><li>``numero``: El número entero o flotante (float) que deseas redondear.</li><li>``n_decimales`` (opcional): La cantidad de posiciones decimales a las que se redondeará. Si se omite, redondea al entero más cercano.</li></ul> |
+| *enumerate()* | Toma una colección (como una lista, tupla o cadena) y devuelve un objeto enumerado que genera pares de (índice, elemento) en cada iteración. | `enumerate(iterable, start=0)` | <ul><li>``iterable``: La lista, tupla, cadena o colección a recorrer.</li><li>``start (opcional)``: El número entero desde el cual empieza a contar el índice (por defecto es 0).</li></ul> |
+| *strip()* | Utiliza para eliminar todos los espacios en blanco (espacios, tabulaciones \t y saltos de línea \n) al inicio y al final de una cadena de texto | `cadena.strip([caracteres])` | <ul><li>``cadena``: La cadena de texto que deseas limpiar.</li><li>``caracteres`` (opcional): Una cadena de caracteres específicos que deseas eliminar en lugar de los espacios en blanco.</li></ul> |
+| *join()* | Se utiliza para unir o concatenar todos los elementos de un iterable (como una lista, tupla o conjunto) en una sola cadena de texto (str), utilizando una cadena específica como separador. | `separador.join(iterable)` | <ul><li>``separador``: La cadena de texto que se colocará entre cada uno de los elementos.</li><li>``iterable``: La colección que contiene los textos a unir (debe contener únicamente cadenas de texto).</li></ul> |
 
 ---
 
@@ -152,6 +154,9 @@ Python incluye funciones para convertir tipos de datos y construir estructuras p
 - [Ejemplo Funcion *len()*](/01-Fundamentos/07-Funciones/04_Funcion_len.py)
 - [Ejemplo Funcion *type()*](/01-Fundamentos/07-Funciones/05_Funcion_type.py)
 - [Ejemplo Funcion *round()*](/01-Fundamentos/07-Funciones/06_Funcion_round.py)
+- [Ejemplo Funcion *enumerate()*](/01-Fundamentos/07-Funciones/07_Funcion_enumerate.py)
+- [Ejemplo Funcion *strip()*](/01-Fundamentos/07-Funciones/08_Funcion_strip.py)
+- [Ejemplo Funcion *join()*](/01-Fundamentos/07-Funciones/09_Funcion_join.py)
 
 ---
 
