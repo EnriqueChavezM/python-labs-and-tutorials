@@ -30,6 +30,7 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 │   ├── 05_Estructuras_de_Control/
 │   ├── 06_Estructuras_de_Datos/
 │   ├── 07_Funciones/
+│   │   └── 05_Funciones_Integradas/ 
 │   ├── 08_Lectura_Escritura_Archivos/
 │   └── 09_Errores_y_Excepciones/
 ├── 02_Módulos_Librerias/    # Elaboración y desarrollo de módulos individuales y bibliotecas del sistema.
