@@ -11,9 +11,10 @@ Las funciones son bloques de código reutilizables que nos permiten encapsular t
   - [Funciones con número variable de argumentos](#funciones-con-número-variable-de-argumentos)
     - [`*args`](#args)
     - [`**kwargs`](#kwargs)
+- [Funciones Anónimas (*lambda*)](#funciones-anónimas-lambda)
 - [Funciones Integradas](#funciones-integradas)
-- [Ejemplos Practicos](#ejemplos-practicos)
 - [Funciones de Conversión y Estructuras](#funciones-de-conversión-y-estructuras)
+- [Ejemplos Practicos](#ejemplos-practicos)
 
 ---
 
@@ -122,19 +123,38 @@ Nombre_funcion(clave1 = valor1, clave2 = valor2, ..., claven = valorn)
 
 ---
 
+## Funciones Anónimas (*lambda*)
+
+Una función `lambda` es una función anónima *(es decir, una función sin un nombre asignado)* que se define en una sola línea de código.
+
+Se utilizan comúnmente para tareas rápidas y específicas donde no vale la pena crear una función formal completa utilizando la palabra clave ``def``.
+
+***Sintaxis***
+
+```python
+lambda argumentos: expresion
+```
+
+- **argumentos:** Los valores de entrada que recibe la función (pueden ser varios separados por comas).
+- **expresion:** La operación que se realiza y cuyo resultado se devuelve automáticamente *(no se necesita escribir la palabra return)*.
+
+---
+
 ## Funciones Integradas
 
 Son herramientas predefinidas que están siempre disponibles en el lenguaje sin necesidad de importar ningún módulo o librería adicional.
 
-| Funcion | Descripcion | Sintaxis | Opciones |
-| :---: | :--- | :---: | :--- |
-| *print()* | Muestra un mensaje o el valor de una variable en la consola. | `print("Mensaje")` | |
-| *len()* | Devuelve el número de elementos que tiene un objeto, como una cadena o una lista. | `len(objeto)` | |
-| *type()* | Permite conocer el tipo de dato de un objeto. *type()* también es la metaclase por defecto en Python. Puedes usarla con 3 argumentos para crear una clase en tiempo de ejecución sin usar la palabra clave class. | <ul><li>`type(objeto)`</li><li>`type(nombre_de_clase, bases, atributos_y_metodos)` | <ul><li>``nombre_de_clase``: Cadena de texto con el nombre de la clase.</li><li>``bases``: Tupla con las clases de las cuales hereda (dejar vacía () si no hereda de ninguna).</li><li>``atributos_y_metodos``: Diccionario con los atributos y funciones de la clase.</li></ul> |
-| *round()* | Redondea un número decimal al entero o decimales especificados(n_decimales). Cuando un número está exactamente a la mitad (.5), Python no redondea siempre hacia arriba, sino hacia el número par más cercano | `round(numero, n_decimales)` | <ul><li>``numero``: El número entero o flotante (float) que deseas redondear.</li><li>``n_decimales`` (opcional): La cantidad de posiciones decimales a las que se redondeará. Si se omite, redondea al entero más cercano.</li></ul> |
-| *enumerate()* | Toma una colección (como una lista, tupla o cadena) y devuelve un objeto enumerado que genera pares de (índice, elemento) en cada iteración. | `enumerate(iterable, start=0)` | <ul><li>``iterable``: La lista, tupla, cadena o colección a recorrer.</li><li>``start (opcional)``: El número entero desde el cual empieza a contar el índice (por defecto es 0).</li></ul> |
-| *strip()* | Utiliza para eliminar todos los espacios en blanco (espacios, tabulaciones \t y saltos de línea \n) al inicio y al final de una cadena de texto | `cadena.strip([caracteres])` | <ul><li>``cadena``: La cadena de texto que deseas limpiar.</li><li>``caracteres`` (opcional): Una cadena de caracteres específicos que deseas eliminar en lugar de los espacios en blanco.</li></ul> |
-| *join()* | Se utiliza para unir o concatenar todos los elementos de un iterable (como una lista, tupla o conjunto) en una sola cadena de texto (str), utilizando una cadena específica como separador. | `separador.join(iterable)` | <ul><li>``separador``: La cadena de texto que se colocará entre cada uno de los elementos.</li><li>``iterable``: La colección que contiene los textos a unir (debe contener únicamente cadenas de texto).</li></ul> |
+| No. | Funcion | Descripcion | Sintaxis | Opciones |
+| :---: | :---: | :--- | :---: | :--- |
+| *1.* | *print()* | Muestra un mensaje o el valor de una variable en la consola. | `print("Mensaje")` | |
+| *2.* | *len()* | Devuelve el número de elementos que tiene un objeto, como una cadena o una lista. | `len(objeto)` | |
+| *3.* | *type()* | Permite conocer el tipo de dato de un objeto. *type()* también es la metaclase por defecto en Python. Puedes usarla con 3 argumentos para crear una clase en tiempo de ejecución sin usar la palabra clave class. | <ul><li>`type(objeto)`</li><li>`type(nombre_de_clase, bases, atributos_y_metodos)` | <ul><li>``nombre_de_clase``: Cadena de texto con el nombre de la clase.</li><li>``bases``: Tupla con las clases de las cuales hereda (dejar vacía () si no hereda de ninguna).</li><li>``atributos_y_metodos``: Diccionario con los atributos y funciones de la clase.</li></ul> |
+| *4.* | *round()* | Redondea un número decimal al entero o decimales especificados(n_decimales). Cuando un número está exactamente a la mitad (.5), Python no redondea siempre hacia arriba, sino hacia el número par más cercano | `round(numero, n_decimales)` | <ul><li>``numero``: El número entero o flotante (float) que deseas redondear.</li><li>``n_decimales`` (opcional): La cantidad de posiciones decimales a las que se redondeará. Si se omite, redondea al entero más cercano.</li></ul> |
+| *5.* | *enumerate()* | Toma una colección (como una lista, tupla o cadena) y devuelve un objeto enumerado que genera pares de (índice, elemento) en cada iteración. | `enumerate(iterable, start=0)` | <ul><li>``iterable``: La lista, tupla, cadena o colección a recorrer.</li><li>``start (opcional)``: El número entero desde el cual empieza a contar el índice (por defecto es 0).</li></ul> |
+| *6.* | *strip()* | Utiliza para eliminar todos los espacios en blanco (espacios, tabulaciones \t y saltos de línea \n) al inicio y al final de una cadena de texto | `cadena.strip([caracteres])` | <ul><li>``cadena``: La cadena de texto que deseas limpiar.</li><li>``caracteres`` (opcional): Una cadena de caracteres específicos que deseas eliminar en lugar de los espacios en blanco.</li></ul> |
+| *7.* | *join()* | Se utiliza para unir o concatenar todos los elementos de un iterable (como una lista, tupla o conjunto) en una sola cadena de texto (str), utilizando una cadena específica como separador. | `separador.join(iterable)` | <ul><li>``separador``: La cadena de texto que se colocará entre cada uno de los elementos.</li><li>``iterable``: La colección que contiene los textos a unir (debe contener únicamente cadenas de texto).</li></ul> |
+| *8.* | *map()* | Se utiliza para aplicar una función a cada uno de los elementos de un iterable (como una lista, tupla o conjunto) de forma eficiente y sin necesidad de escribir un bucle for manual. | `map(funcion, iterable)` | <ul><li>``funcion``: La función que deseas aplicar a cada elemento (puede ser una función propia, una función incorporada o una función anónima lambda).</li><li>``iterable``: La colección de elementos que se van a procesar.</li></ul> |
+| *9.* | *filter()* | Se utiliza para filtrar los elementos de un iterable **(como una lista, tupla o conjunto)** basándose en una condición.Devuelve un objeto iterador que **contiene únicamente aquellos elementos** para los cuales la función de condición devuelve *True*. Si la condición devuelve *False*, el **elemento es descartado**. | `filter(funcion_condicion, iterable)` | <ul><li>``funcion_condicion``: Una función que evalúa cada elemento y devuelve *True* o *False*.</li><li>`iterable`: La colección de datos que deseas evaluar.</li></ul>
 
 ---
 
@@ -149,14 +169,18 @@ Python incluye funciones para convertir tipos de datos y construir estructuras p
 
 ## Ejemplos Practicos
 
-- [Ejemplo Funciones](/01-Fundamentos/07-Funciones/02_Funciones.py)
-- [Ejemplo Funciones Posicionales](/01-Fundamentos/07-Funciones/03_Funciones_posicionales.py)
-- [Ejemplo Funcion *len()*](/01-Fundamentos/07-Funciones/04_Funcion_len.py)
-- [Ejemplo Funcion *type()*](/01-Fundamentos/07-Funciones/05_Funcion_type.py)
-- [Ejemplo Funcion *round()*](/01-Fundamentos/07-Funciones/06_Funcion_round.py)
-- [Ejemplo Funcion *enumerate()*](/01-Fundamentos/07-Funciones/07_Funcion_enumerate.py)
-- [Ejemplo Funcion *strip()*](/01-Fundamentos/07-Funciones/08_Funcion_strip.py)
-- [Ejemplo Funcion *join()*](/01-Fundamentos/07-Funciones/09_Funcion_join.py)
+1. [Ejemplo Funciones](/01-Fundamentos/07-Funciones/02_Funciones.py)
+2. [Ejemplo Funciones Posicionales](/01-Fundamentos/07-Funciones/03_Funciones_posicionales.py)
+3. [Funciones Anonimas](/01-Fundamentos/07-Funciones/04_Funciones_Anonimas.py)
+4. **Funciones Integradas**
+   1. [Ejemplo Funcion *len()*](/01-Fundamentos/07-Funciones/05_Funciones_Integradas/01_Funcion_len.py)
+   2. [Ejemplo Funcion *type()*](/01-Fundamentos/07-Funciones/05_Funciones_Integradas/02_Funcion_type.py)
+   3. [Ejemplo Funcion *round()*](/01-Fundamentos/07-Funciones/05_Funciones_Integradas/03_Funcion_round.py)
+   4. [Ejemplo Funcion *enumerate()*](/01-Fundamentos/07-Funciones/05_Funciones_Integradas/04_Funcion_enumerate.py)
+   5. [Ejemplo Funcion *strip()*](/01-Fundamentos/07-Funciones/05_Funciones_Integradas/05_Funcion_strip.py)
+   6. [Ejemplo Funcion *join()*](/01-Fundamentos/07-Funciones/05_Funciones_Integradas/06_Funcion_join.py)
+   7. [Ejemplo Funcion *map()*](/01-Fundamentos/07-Funciones/05_Funciones_Integradas/07_Funcion_map.py)
+   8. [Ejemplo Funcion *filter()*](/01-Fundamentos/07-Funciones/05_Funciones_Integradas/08_Funcion_filter.py)
 
 ---
 
