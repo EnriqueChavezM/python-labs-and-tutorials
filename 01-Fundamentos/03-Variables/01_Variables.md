@@ -10,6 +10,8 @@ En Python, no es necesario declarar una variable (especificando el tipo de datos
 - [Tipo de Variables](#tipo-de-variables)
 - [Casteo de datos o casting](#casteo-de-datos-o-casting)
   - [Tipos de Casting que Existen](#tipos-de-casting-que-existen)
+- [Variables Constantes](#variables-constantes)
+- [Asignación de múltiples variables]
 - [Ejemplo practico](#ejemplo-practico)
 
 ---
@@ -60,6 +62,56 @@ Para concatenar una variable de tipo *int* es necesario primero convertir el val
 > [!NOTA]
 > No todo se puede castear a cualquier cosa. Si intentas hacer *int("hola")*, el programa va a fallar ``(Value Error)`` porque la palabra "hola" no tiene una representación numérica lógica.
 
+---
+
+## Variables Constantes
+
+En programación, una **constante** es un tipo de variable cuyo **valor no se puede cambiar durante la ejecución de un programa**. Las constantes son útiles para definir valores que se utilizan varias veces a lo largo de un programa, como constantes matemáticas como PI o el número de horas de un día.
+
+En Python, *no existe una aplicación* estricta de las constantes como en algunos otros lenguajes (como c++). Sin embargo, existe una convención ampliamente adoptada para indicar que una variable debe tratarse como una constante. Esto se hace escribiendo el nombre de la variable usando únicamente letras mayúsculas, a menudo con guiones bajos para separar las palabras.
+
+**Ejemplo**
+
+```python
+PI = 3.14159
+HOURS_IN_A_DAY = 24
+MAX_USERS = 100
+```
+
+---
+
+## Asignación de múltiples variables
+
+Puedes asignar valores a múltiples variables en una sola línea. Esta característica puede hacer que tu código sea más conciso y legible.
+
+- **Asignaciones múltiples básicas:**
+
+  ```python
+  a, b, c = 1, 2, 3
+  print(a)  # Salida: 1
+  print(b)  # Salida: 2
+  print(c)  # Salida: 3
+  ```
+
+- **Asignar el mismo valor a múltiples variables:**
+
+  ```python
+  x = y = z = 10
+  print(x)  # Salida: 10
+  print(y)  # Salida: 10
+  print(z)  # Salida: 10
+  ```
+
+- **Asignación de valores de una lista (desempaquetado):**
+
+  ```python
+  numbers = [4, 5, 6]
+  a, b, c = numbers
+  print(a)  # Salida: 4
+  print(b)  # Salida: 5
+  print(c)  # Salida: 6
+  ```
+  
 ---
 
 ## Ejemplo Practico
