@@ -31,24 +31,32 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 │   ├── 06_Estructuras_de_Datos/
 │   ├── 07_Funciones/
 │   │   └── 05_Funciones_Integradas/ 
+│   │
 │   ├── 08_Lectura_Escritura_Archivos/
 │   └── 09_Errores_y_Excepciones/
+│   
 ├── 02_Módulos_Librerias/    # Elaboración y desarrollo de módulos individuales y bibliotecas del sistema.
 │   ├── 01_Importar_Modulos/
 │   ├── 03_Modulo_Personalisado_Paquete/
-│       └── Paquete/
+│   │   └── Paquete/
+│   │
 │   └── 02_Librerias_Estandar/
+│   
 ├── 03_programacion_orientada_objetos/ # Clases, herencia, polimorfismo y decoradores
 │   ├── 01_Clases_y_Objetos/
 │   ├── 02_Encapsulamiento/
 │   ├── 03_Herencia/
 │   └── 04_Polimorfismo/
+│   
 ├── 04_Retos-y_ejercicios/
 │   ├── 01_Edutin Academy/
 │   └── 02_Coddy/
+│       └── Fundamentals/
+│   
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
     ├── 01_Bibliografia
-    └── 02_Constancias
+    ├── 02_Constancias
+    └── 02_Imagenes
 
 ```
 
@@ -73,6 +81,8 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 
 - 🎓 **[Curso de Python](https://edutin.com/curso-de-python)** — *Edutin Academy*
 - 📜 **Desarroyador Python** — *Edutin Academy* | [Ver Certificado](./docs/02_Constancias/Certificado_de_estudio_2026-08-28.pdf)
+
+- 🧩 **Coddy - Python Fundamentals** — *Coddy* | [Ver Certificado](./docs/02_Constancias/Python%20Fundamentals%20-%20Coddy.pdf)
 
 ---
 
