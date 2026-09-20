@@ -39,6 +39,8 @@
 
 1. [Edutin Academy](/04-Retos_y_Ejercicios/01-Edutin_Academy/)
 2. [Coddy](/04-Retos_y_Ejercicios/02-Coddy/)
+    1. [Fundamentos](/04-Retos_y_Ejercicios/02-Coddy/01_Fundamentos/)
+    2. [Lógica y Flujo](/04-Retos_y_Ejercicios/02-Coddy/02_Logica_y_Flujo/)
 
 ---
 

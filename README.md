@@ -51,7 +51,8 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 ├── 04_Retos-y_ejercicios/
 │   ├── 01_Edutin Academy/
 │   └── 02_Coddy/
-│       └── Fundamentals/
+│       ├──01_Fundamentos/ 
+│       └──02_Logica_y_Flujo/
 │   
 └── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
     ├── 01_Bibliografia
