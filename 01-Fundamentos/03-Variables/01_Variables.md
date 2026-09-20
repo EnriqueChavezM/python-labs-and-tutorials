@@ -11,7 +11,9 @@ En Python, no es necesario declarar una variable (especificando el tipo de datos
 - [Casteo de datos o casting](#casteo-de-datos-o-casting)
   - [Tipos de Casting que Existen](#tipos-de-casting-que-existen)
 - [Variables Constantes](#variables-constantes)
-- [Asignación de múltiples variables]
+- [Asignación de múltiples variables](#asignación-de-múltiples-variables)
+- [Intercambio de variables](#intercambio-de-variables)
+- [Variables de marcador de posición](#variables-de-marcador-de-posición)
 - [Ejemplo practico](#ejemplo-practico)
 
 ---
@@ -114,9 +116,73 @@ Puedes asignar valores a múltiples variables en una sola línea. Esta caracter�
   
 ---
 
+## Intercambio de variables
+
+Intercambiar variables es una operación común en la que se intercambian los valores de dos variables. Python ofrece una forma sencilla y elegante de intercambiar variables sin necesidad de una variable temporal, a diferencia de muchos otros lenguajes de programación.
+
+- **Método tradicional (usando una variable temporal):**
+  
+  ```python
+  a = 10
+  b = 20
+  temp = a
+  a = b
+  b = temp
+  print(a)  # Salida: 20
+  print(b)  # Salida: 10
+  ```
+
+- **Forma Asignación simultánea:
+
+  ```python
+  a = 10
+  b = 20
+  a, b = b, a
+  print(a)  # Salida: 20
+  print(b)  # Salida: 10
+  ```
+
+  Los valores de ``b`` y ``a`` se asignan simultáneamente a ``a`` y ``b``, respectivamente. Este enfoque es más legible y **no requiere ninguna variable adicional**.
+
+---
+
+## Variables de marcador de posición
+
+Una variable de marcador de posición es una variable que se utiliza para contener un valor temporalmente, a menudo durante la ejecución de un bloque de código específico. Las variables de marcador de posición se utilizan comúnmente en situaciones en las que es necesario realizar operaciones sobre un valor sin cambiar la variable original.
+Una convención común para las variables de marcador de posición es utilizar un guion bajo ``_`` como nombre de la variable.
+
+- **Uso de un guion bajo simple _:**
+  En este ejemplo, ``_`` se utiliza como un marcador de posición porque la variable del bucle no es necesaria en el cuerpo del mismo.
+
+  ```python
+  for _ in range(5):
+    print("Looping")
+  # Salida:
+  # Looping
+  # Looping
+  # Looping
+  # Looping
+  # Looping
+  ```
+
+- **Uso de múltiples guiones bajos simples:**
+  En los casos en los que tienes múltiples valores y solo necesitas algunos de ellos, puedes usar el carácter de guion bajo varias veces como variables de marcador de posición independientes.
+  **Por ejemplo:**
+  Aquí, _ se utiliza para ignorar el segundo, tercer y cuarto elemento de la tupla.
+
+  ```python
+  data = (1, 2, 3, 4, 5)
+  first, _, _, _, last = data
+  print(first)  # Salida: 1
+  print(last)   # Salida: 5
+  ```
+
+---
+
 ## Ejemplo Practico
 
 - [Ejemplo Variables](/01-Fundamentos/03-Variables/02_Ejemplo_Variables.py)
+- [Asignacion de variables](/01-Fundamentos/03-Variables/03_Asignación_múltiples_variables.py)
 
 ---
 
