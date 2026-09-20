@@ -183,6 +183,8 @@ Una convención común para las variables de marcador de posición es utilizar u
 
 - [Ejemplo Variables](/01-Fundamentos/03-Variables/02_Ejemplo_Variables.py)
 - [Asignacion de variables](/01-Fundamentos/03-Variables/03_Asignación_múltiples_variables.py)
+- [Intercambio de Variables](/01-Fundamentos/03-Variables/04_Intercambio_Variables.py)
+- [Marcador de Posición](/01-Fundamentos/03-Variables/05_Marcador_Posicion.py)
 
 ---
 
