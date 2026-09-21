@@ -33,7 +33,7 @@ Las variables definidas dentro de una función tienen un alcance local, lo que s
 
 ---
 
-## Casteo de datos o casting
+## Casteo de Variables
 
 Hace referencia a forzar o convertir explícitamente una variable de un tipo de dato a otro.
 
