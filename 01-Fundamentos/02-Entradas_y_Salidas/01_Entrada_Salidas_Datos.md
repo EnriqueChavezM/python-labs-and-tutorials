@@ -52,7 +52,7 @@ nombre, apellido, edad = input("Escribe tu nombre, apellido y edad separados por
 
 Errores como presionar la barra espaciadora por accidente o usar mayúsculas cuando pediste minúsculas. Puedes encadenar métodos para "limpiar" la entrada
 
-- ``.strip()``: Borra los espacios fantasma al inicio y al final
+- ``.strip()``: Borra los espacios fantasma al inicio y al final *[Mas información](/01-Fundamentos/07-Funciones/01_Funciones.md#funciones-integradas)*
 - ``.title()``: Pone la primera letra en mayúscula
 - ``.lower()``: Convierte todo a minúsculas
 
@@ -84,7 +84,7 @@ print(f"Tu edad es: {edad} años")
 
 Para mostrar información en la pantalla, utilizamos la función ``print()``. Esta función toma uno o más argumentos y los muestra en la consola.
 
-**Combinar Texto y Vatiables**
+- **Combinar Texto y Vatiables**
 
 | Método | Características | Ejemplos |
 | :---: | :--- | :---: |
