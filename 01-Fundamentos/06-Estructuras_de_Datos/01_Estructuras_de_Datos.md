@@ -20,6 +20,8 @@ Las estructuras de datos nos permiten organizar y almacenar datos de manera efic
 - [Conjuntos](#conjuntos)
   - [Creación y Operaciones Básicas](#creación-y-operaciones-básicas)
   - [Métodos de Conjuntos](#métodos-de-conjuntos)
+- [Casting de Datos](#casting-de-datos)
+  - [Casting de listas](#casting-de-listas)
 - [Ejemplos Practicos](#ejemplos-practicos)
 
 ---
@@ -40,7 +42,7 @@ Nombre_lista = [dato1, dato2, ..., daton]
 
 Para acceder a los elementos de una lista, se utiliza el índice del elemento entre corchetes. Los índices comienzan desde 0.
 
-**Ejemplo**
+- **Ejemplo**
 
 ```python
 print(Nombre_lista[0])  #Imprie el dato del indice 0
@@ -51,7 +53,7 @@ print(Nombre_lista[n])  #Imprie el dato del indice n
 
 También puedes acceder a los elementos desde el final de la lista utilizando índices negativos. El índice -1 representa el último elemento, -2 representa el penúltimo, y así sucesivamente.
 
-**Ejemplo**
+- **Ejemplo**
 
 ```python
 print(Nombre_lista[-1])  #Imprie el dato del indice -1
@@ -138,7 +140,7 @@ Nombre_Tupla = (dato1, dato2, ..., daton)
 
 Para acceder a los elementos, se utiliza el índice del elemento entre corchetes. Los índices comienzan desde 0. También puedes acceder a los elementos desde el final de la lista utilizando índices negativos. El índice -1 representa el último elemento, -2 representa el penúltimo, y así sucesivamente.
 
-**Ejemplo**
+- **Ejemplo**
 
 ```python
 print(Nombre_Tupla[0])  #Imprie el dato del indice 0
@@ -154,7 +156,7 @@ Las tuplas son útiles cuando necesitas almacenar una colección de elementos qu
 
 Aunque las tuplas son inmutables, Python proporciona varios métodos útiles para trabajar con ellas:
 
-- *.count(elemento):* devuelve el número de veces que aparece un elemento en la tupla. 
+- *.count(elemento):* devuelve el número de veces que aparece un elemento en la tupla.
   - ***Sintaxis*** `Nombre_tupla.count(elemento)`
 - *.index(elemento):* devuelve el índice de la primera aparición de un elemento en la tupla. Opcionalmente, se puede especificar el inicio y fin de la búsqueda.
   - ***Sintaxis*** `Nombre_tupla.index(elemento)`
@@ -196,7 +198,7 @@ Nombre_diccionario3 = dict([
 
 Para acceder a los valores de un diccionario, utiliza la clave correspondiente entre corchetes:
 
-**Ejemplo**
+- **Ejemplo**
 
 ```python
 print(Nombre_diccionario[0])  #Imprie el dato del indice 0
@@ -261,12 +263,47 @@ Los conjuntos en Python tienen varios métodos incorporados para manipular y acc
 
 ---
 
+## Casting de Datos
+
+Hace referencia a forzar o convertir explícitamente una estructura de datos de un tipo de dato a otro.
+
+### Casting de listas
+
+Puedes usar la función ``list()`` para convertir iterables como tuplas, cadenas o rangos en listas. Esto es útil para trabajar con elementos en un **formato modificable**.
+
+- Convertir una tupla en una lista:
+  
+  ```python
+  my_tuple = (1, 2, 3)
+  my_list = list(my_tuple)
+  print(my_list)  # [1, 2, 3]
+  ```
+
+- Convertir una cadena la divide en caracteres individuales:
+  
+  ```python
+  my_string = "hello"
+  my_list = list(my_string)
+  print(my_list)  # ['h', 'e', 'l', 'l', 'o']
+  ```
+
+- Convertir un rango a una lista devuelve todos los números a la vez:
+
+  ```python
+  my_range = range(5)
+  my_list = list(my_range)
+  print(my_list)  # [0, 1, 2, 3, 4]
+  ```
+
+---
+
 ## Ejemplos Practicos
 
 - [Ejemplo Listas](/01-Fundamentos/06-Estructuras_de_Datos/02_Listas.py)
 - [Ejemplo Tuplas](/01-Fundamentos/06-Estructuras_de_Datos/03_Tuplas.py)
 - [Ejemplo Diccionarios](/01-Fundamentos/06-Estructuras_de_Datos/04_Diccionarios.py)
 - [Ejemplo Conjuntos](/01-Fundamentos/06-Estructuras_de_Datos/05_Conjuntos.py)
+- [Ejemplo Casting de Datos](/01-Fundamentos/06-Estructuras_de_Datos/06_Casting_Estructura_Datos.py)
 
 ---
 
