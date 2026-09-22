@@ -6,23 +6,25 @@ Las estructuras de datos nos permiten organizar y almacenar datos de manera efic
 
 ## Tabla de Contenido
 
-- [Listas](#listas)
-  - [Creación y Acceso de Listas](#creación-y-acceso-de-listas)
-  - [Métodos de listas](#métodos-de-listas)
-  - [Listas de Comprensión](#listas-de-comprensión)
-  - [Segmentacion de Listas (*Slicing*)](#segmentacion-de-listas-slicing)
-- [Tuplas](#tuplas)
-  - [Creación y Acceso de Tuplas](#creación-y-acceso-de-tuplas)
-  - [Métodos de Tuplas](#métodos-de-tuplas)
-- [Diccionarios](#diccionarios)
-  - [Creación y Acceso de Diccionarios](#creación-y-acceso-de-diccionarios)
-  - [Métodos de Diccionarios](#métodos-de-diccionarios)
-- [Conjuntos](#conjuntos)
-  - [Creación y Operaciones Básicas](#creación-y-operaciones-básicas)
-  - [Métodos de Conjuntos](#métodos-de-conjuntos)
-- [Casting de Datos](#casting-de-datos)
-  - [Casting de listas](#casting-de-listas)
-- [Ejemplos Practicos](#ejemplos-practicos)
+- [6. Estructuras de Datos](#6-estructuras-de-datos)
+  - [Tabla de Contenido](#tabla-de-contenido)
+  - [Listas](#listas)
+    - [Creación y Acceso de Listas](#creación-y-acceso-de-listas)
+    - [Métodos de Listas](#métodos-de-listas)
+    - [Listas de Comprensión](#listas-de-comprensión)
+    - [Segmentacion de Listas (*Slicing*)](#segmentacion-de-listas-slicing)
+  - [Tuplas](#tuplas)
+    - [Creación y Acceso de Tuplas](#creación-y-acceso-de-tuplas)
+    - [Métodos de Tuplas](#métodos-de-tuplas)
+  - [Diccionarios](#diccionarios)
+    - [Creación y Acceso de Diccionarios](#creación-y-acceso-de-diccionarios)
+    - [Métodos de Diccionarios](#métodos-de-diccionarios)
+  - [Conjuntos](#conjuntos)
+    - [Creación y Operaciones Básicas](#creación-y-operaciones-básicas)
+    - [Métodos de Conjuntos](#métodos-de-conjuntos)
+  - [Casting de Datos](#casting-de-datos)
+    - [Casting de listas](#casting-de-listas)
+  - [Ejemplos Practicos](#ejemplos-practicos)
 
 ---
 
@@ -167,7 +169,7 @@ Aunque las tuplas son inmutables, Python proporciona varios métodos útiles par
 
 ## Diccionarios
 
-Un diccionario es una estructura de datos mutable y no ordenada que permite almacenar pares de clave-valor. Cada elemento en un diccionario consiste en una clave única y su valor correspondiente. Los diccionarios se encierran entre llaves ``{}`` o utilizando la el constructor ``dict()``, y los pares clave-valor se separan por comas
+Un diccionario es una estructura de datos mutable y no ordenada que permite almacenar pares de **clave-valor**. Cada elemento en un diccionario consiste en una clave única y su valor correspondiente. Los diccionarios se encierran entre llaves ``{}`` o utilizando la el constructor ``dict()``. Cada par **clave-valor** se escribe como ``key: value``, y varios pares se separan mediante comas.
 
 ### Creación y Acceso de Diccionarios
 
@@ -178,7 +180,7 @@ Para crear un diccionario, utiliza llaves o constructor ``dict`` y separa las cl
 ```python
 #Opcion 1
 Nombre_diccionario1 = {
-  clave1 : valor1
+  clave1 : valor1,
   ...
   claven : valorn
 }
