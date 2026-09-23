@@ -18,6 +18,7 @@ Las estructuras de datos nos permiten organizar y almacenar datos de manera efic
     - [Métodos de Tuplas](#métodos-de-tuplas)
   - [Diccionarios](#diccionarios)
     - [Creación y Acceso de Diccionarios](#creación-y-acceso-de-diccionarios)
+    - [Añadir Nuevo Par *clave-valor*](#añadir-nuevo-par-clave-valor)
     - [Métodos de Diccionarios](#métodos-de-diccionarios)
   - [Conjuntos](#conjuntos)
     - [Creación y Operaciones Básicas](#creación-y-operaciones-básicas)
@@ -208,6 +209,25 @@ print(Nombre_diccionario[1])  #Imprie el dato del indice 1
 ...
 print(Nombre_diccionario[n])  #Imprie el dato del indice n
 ```
+
+### Añadir Nuevo Par *clave-valor*
+
+Puedes añadir nuevos pares clave-valor o actualizar los existentes.
+
+- **Añadir un nuevo par clave-valor:**
+  
+  ```python
+  my_dict = {}              # Comenzar con un diccionario vacío
+  my_dict["name"] = "Alice" # Añadir un nuevo par clave-valor
+  my_dict["age"] = 30       # Añadir un nuevo par clave-valor
+  print(my_dict)            # Salida: {'name': 'Alice'}
+  ```
+- **Actualizar un valor existente:**
+  
+  ```python
+  my_dict["age"] = 31       # Actualizar la edad
+  print(my_dict)            # Salida: {'name': 'Alice', 'age': 31}
+  ```
 
 ### Métodos de Diccionarios
 
