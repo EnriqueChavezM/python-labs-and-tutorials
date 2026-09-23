@@ -12,7 +12,7 @@ Las estructuras de datos nos permiten organizar y almacenar datos de manera efic
     - [Creación y Acceso de Listas](#creación-y-acceso-de-listas)
     - [Métodos de Listas](#métodos-de-listas)
     - [Listas de Comprensión](#listas-de-comprensión)
-    - [Segmentacion de Listas (*Slicing*)](#segmentacion-de-listas-slicing)
+    - [Segmentación de Listas (*Slicing*)](#segmentación-de-listas-slicing)
   - [Tuplas](#tuplas)
     - [Creación y Acceso de Tuplas](#creación-y-acceso-de-tuplas)
     - [Métodos de Tuplas](#métodos-de-tuplas)
@@ -25,7 +25,7 @@ Las estructuras de datos nos permiten organizar y almacenar datos de manera efic
     - [Métodos de Conjuntos](#métodos-de-conjuntos)
   - [Casting de Datos](#casting-de-datos)
     - [Casting de listas](#casting-de-listas)
-  - [Ejemplos Practicos](#ejemplos-practicos)
+  - [Ejemplos Prácticos](#ejemplos-prácticos)
 
 ---
 
@@ -40,7 +40,7 @@ Para crear una lista, simplemente encierra los elementos entre corchetes:
 ***Sintaxis***
 
 ```python
-Nombre_lista = [dato1, dato2, ..., daton]
+Nombre_lista = [dato1, dato2, ..., dato_n]
 ```
 
 Para acceder a los elementos de una lista, se utiliza el índice del elemento entre corchetes. Los índices comienzan desde 0.
@@ -48,10 +48,10 @@ Para acceder a los elementos de una lista, se utiliza el índice del elemento en
 - **Ejemplo**
 
 ```python
-print(Nombre_lista[0])  #Imprie el dato del indice 0
-print(Nombre_lista[1])  #Imprie el dato del indice 1
+print(Nombre_lista[0])  #Imprime el dato del indice 0
+print(Nombre_lista[1])  #Imprime el dato del indice 1
 ...
-print(Nombre_lista[n])  #Imprie el dato del indice n
+print(Nombre_lista[n])  #Imprime el dato del indice n
 ```
 
 También puedes acceder a los elementos desde el final de la lista utilizando índices negativos. El índice -1 representa el último elemento, -2 representa el penúltimo, y así sucesivamente.
@@ -59,10 +59,10 @@ También puedes acceder a los elementos desde el final de la lista utilizando í
 - **Ejemplo**
 
 ```python
-print(Nombre_lista[-1])  #Imprie el dato del indice -1
-print(Nombre_lista[-2])  #Imprie el dato del indice -2
+print(Nombre_lista[-1])  #Imprime el dato del indice -1
+print(Nombre_lista[-2])  #Imprime el dato del indice -2
 ...
-print(Nombre_lista[-n])  #Imprie el dato del indice -n
+print(Nombre_lista[-n])  #Imprime el dato del indice -n
 ```
 
 ### Métodos de Listas
@@ -98,18 +98,18 @@ Las listas de comprensión son una forma concisa de crear nuevas listas basadas 
 ***Sintaxis***
 
 ```python
-Nueva_lista = [exprecion for elemento in Nombre_lista if condicion]
+Nueva_lista = [excreción for elemento in Nombre_lista if condición]
 ```
 
-**Ejemplo:** Se crea una nueva lista llamada cuadrados, que contiene los cuadrados de los números pares de la lista numeros. La expresión x ** 2 eleva cada elemento al cuadrado, y la condición if x % 2 == 0 filtra solo los números pares.
+**Ejemplo:** Se crea una nueva lista llamada cuadrados, que contiene los cuadrados de los números pares de la lista números. La expresión x ** 2 eleva cada elemento al cuadrado, y la condición if x % 2 == 0 filtra solo los números pares.
 
 ```python
-numeros = [1, 2, 3, 4, 5]
-cuadrados = [x**2 for x in numeros if x % 2 == 0]  # Crea una nueva lista con los cuadrados de los números pares
+números = [1, 2, 3, 4, 5]
+cuadrados = [x**2 for x in números if x % 2 == 0]  # Crea una nueva lista con los cuadrados de los números pares
 print("cuadrados de los números impares:", cuadrados)  # Imprime [4, 16]
 ```
 
-### Segmentacion de Listas (*Slicing*)
+### Segmentación de Listas (*Slicing*)
 
 Es una técnica fundamental que te permite extraer una sublista (o fragmento) a partir de una lista existente, indicando los índices de inicio, fin y paso.
 
@@ -138,7 +138,7 @@ Para crear una tupla, encierra los elementos entre paréntesis:
 ***Sintaxis***
 
 ```python
-Nombre_Tupla = (dato1, dato2, ..., daton)
+Nombre_Tupla = (dato1, dato2, ..., dato_n)
 ```
 
 Para acceder a los elementos, se utiliza el índice del elemento entre corchetes. Los índices comienzan desde 0. También puedes acceder a los elementos desde el final de la lista utilizando índices negativos. El índice -1 representa el último elemento, -2 representa el penúltimo, y así sucesivamente.
@@ -146,10 +146,10 @@ Para acceder a los elementos, se utiliza el índice del elemento entre corchetes
 - **Ejemplo**
 
 ```python
-print(Nombre_Tupla[0])  #Imprie el dato del indice 0
-print(Nombre_Tupla[1])  #Imprie el dato del indice 1
+print(Nombre_Tupla[0])  #Imprime el dato del indice 0
+print(Nombre_Tupla[1])  #Imprime el dato del indice 1
 ...
-print(Nombre_Tupla[n])  #Imprie el dato del indice n
+print(Nombre_Tupla[n])  #Imprime el dato del indice n
 ```
 
 A diferencia de las listas, las tuplas son inmutables, lo que significa que no se pueden modificar una vez creadas. No se pueden agregar, eliminar o cambiar elementos en una tupla existente.
@@ -179,23 +179,23 @@ Para crear un diccionario, utiliza llaves o constructor ``dict`` y separa las cl
 ***Sintaxis***
 
 ```python
-#Opcion 1
+#Opción 1
 Nombre_diccionario1 = {
   clave1 : valor1,
   ...
-  claven : valorn
+  claven : valor_n
 }
-# Opcion 2
+# Opción 2
 Nombre_diccionario2 = dict(
   clave1 = valor1
   ...
-  claven = valorn
+  claven = valor_n
 )
-# Opcion 3
+# Opción 3
 Nombre_diccionario3 = dict([
   (clave1 , valor1),
   ...
-  (claven , valorn),
+  (claven , valor_n),
 ])
 ```
 
@@ -204,10 +204,10 @@ Para acceder a los valores de un diccionario, utiliza la clave correspondiente e
 - **Ejemplo**
 
 ```python
-print(Nombre_diccionario[0])  #Imprie el dato del indice 0
-print(Nombre_diccionario[1])  #Imprie el dato del indice 1
+print(Nombre_diccionario[0])  #Imprime el dato del indice 0
+print(Nombre_diccionario[1])  #Imprime el dato del indice 1
 ...
-print(Nombre_diccionario[n])  #Imprie el dato del indice n
+print(Nombre_diccionario[n])  #Imprime el dato del indice n
 ```
 
 ### Añadir Nuevo Par *clave-valor*
@@ -240,7 +240,11 @@ Los diccionarios en Python tienen varios métodos incorporados para manipular y 
 - *.items():* devuelve una vista de todos los pares clave-valor del diccionario.
   - ***Sintaxis:*** `Nombre_diccionario.items()`
 - *.update(clave, valor):* actualiza el diccionario con los pares clave-valor de otro diccionario.
-  - ***Sintaxis:*** `Nombre_diccionario.updat({clave, valor})`
+  - ***Sintaxis:*** `Nombre_diccionario.update({clave, valor})`
+- *get(key, default):* Devuelve el valor para la clave especificada. Si no se encuentra la clave, devuelve el valor predeterminado (o None si no se especifica ningún valor predeterminado).
+  - ***Sintaxis:*** `Nombre_diccionario.get(clave)`
+- *.pop():*  elimina un par clave-valor y devuelve el valor eliminado.
+  - ***Sintaxis:*** `Nombre_diccionario.pop(clave)`
 - *del diccionario:* Borra la clave y su valor asociado directamente. Si la clave no existe, lanza un error (KeyError).
   - ***Sintaxis:*** `del Nombre_diccionario[clave]`
 
@@ -255,8 +259,8 @@ Para crear un conjunto, utiliza llaves o la función `set()`:
 ***Sintaxis***
 
 ```python
-Nombre_conjunto1 = {valor1, valor2, ..., valorn}
-Nombre_conjunto2 = set([valor1, valor2, ..., valorn])
+Nombre_conjunto1 = {valor1, valor2, ..., valor_n}
+Nombre_conjunto2 = set([valor1, valor2, ..., valor_n])
 ```
 
 Los conjuntos admiten operaciones matemáticas de conjuntos como:
@@ -319,7 +323,7 @@ Puedes usar la función ``list()`` para convertir iterables como tuplas, cadenas
 
 ---
 
-## Ejemplos Practicos
+## Ejemplos Prácticos
 
 - [Ejemplo Listas](/01-Fundamentos/06-Estructuras_de_Datos/02_Listas.py)
 - [Ejemplo Tuplas](/01-Fundamentos/06-Estructuras_de_Datos/03_Tuplas.py)
