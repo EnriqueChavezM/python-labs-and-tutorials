@@ -1,4 +1,4 @@
-<img src="/docs/03_Imagenes/icono_py.jpg" align="left" width="100">
+<img src="/docs/03_Imágenes/icono_py.jpg" align="left" width="100">
 
 # Tabla de contenido
 
@@ -7,10 +7,10 @@
 ## 1. Fundamentos
 
 1. [Sintaxis](/01-Fundamentos/01-Sintaxis/01_Sintaxis_basica.md)
-2. [Entrtadas y Salidas](/01-Fundamentos/02-Entradas_y_Salidas/01_Entrada_Salidas_Datos.md)
+2. [Entradas y Salidas](/01-Fundamentos/02-Entradas_y_Salidas/01_Entrada_Salidas_Datos.md)
 3. [Variable](/01-Fundamentos/03-Variables/01_Variables.md)
 4. [Operadores](/01-Fundamentos/04-Operadores/01_Operadores.md)
-5. [Estructuras de Contrlo](/01-Fundamentos/05-Estructuras_de_Control/01_Estructuras_Control.md)
+5. [Estructuras de Control](/01-Fundamentos/05-Estructuras_de_Control/01_Estructuras_Control.md)
 6. [Estructuras de Datos](/01-Fundamentos/06-Estructuras_de_Datos/01_Estructuras_de_Datos.md)
 7. [Funciones](/01-Fundamentos/07-Funciones/01_Funciones.md)
 8. [Lectura y Escritura de Archivos](/01-Fundamentos/08-Lectura_Escritura_Archivos/01_Lectura_y_Escritura_de_Archivos.md)
@@ -20,13 +20,13 @@
 
 ## 2. Módulos y Librerías
 
-1. [Importar_Modulos](/02-Modulos_librerias/01-Importar_Modulos/01_Importar_modulos.md)
-2. [Modulos Personalizados y Paquete](/02-Modulos_librerias/02-Modulo_Personalizado_Paquete/01_Modulo_Personalizados.md)
-3. [Librerias Estandar](/02-Modulos_librerias/03-Librerias_Estandar/01_Librerias.md)
+1. [Importar Módulos](/02-Modulos_librerias/01-Importar_Modulos/01_Importar_modulos.md)
+2. [Módulos Personalizados y Paquete](/02-Modulos_librerias/02-Modulo_Personalizado_Paquete/01_Modulo_Personalizados.md)
+3. [Librerías Estándar](/02-Modulos_librerias/03-Librerias_Estandar/01_Librerias.md)
 
 ---
 
-## 3. Programacion Orientada a Objetos (POO)
+## 3. Programación Orientada a Objetos (POO)
 
 1. [Clases y Objetos](/03-Programacion_Orientada_Objetos/01-Clases_y_Objetos/01_Clases_Objetos.md)
 2. [Encapsulamiento](/03-Programacion_Orientada_Objetos/02-Encapsulamiento/01_Encapsulamiento.md)
@@ -46,9 +46,9 @@
 
 ## docs
 
-1. [Bibliografia](/docs/01_Libreria/)
+1. [Bibliografía](/docs/01_Libreria/)
 2. [Constancias](/docs/02_Constancias/)
-3. [Imagenes](/docs/03_Imagenes/)
+3. [Imágenes](/docs/03_Imagenes/)
 
 ---
 

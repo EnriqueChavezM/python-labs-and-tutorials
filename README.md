@@ -1,6 +1,6 @@
 # Python Learning Journey 🐍
 
-<img src="/docs/03_Imagenes/icono_py.jpg" align="left" width="100">
+<img src="/docs/03_Imágenes/icono_py.jpg" align="left" width="100">
 
 Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y documentación del lenguaje **Python**. En este espacio voy consolidando conceptos teóricos, ejercicios prácticos, proyectos pequeños y notas sobre desarrollo de software, manipulación de datos y automatización.
 
@@ -35,14 +35,14 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 │   ├── 08_Lectura_Escritura_Archivos/
 │   └── 09_Errores_y_Excepciones/
 │   
-├── 02_Módulos_Librerias/    # Elaboración y desarrollo de módulos individuales y bibliotecas del sistema.
-│   ├── 01_Importar_Modulos/
-│   ├── 03_Modulo_Personalisado_Paquete/
+├── 02_Módulos_Librerías/    # Elaboración y desarrollo de módulos individuales y bibliotecas del sistema.
+│   ├── 01_Importar_Módulos/
+│   ├── 03_Modulo_Personalizado_Paquete/
 │   │   └── Paquete/
 │   │
-│   └── 02_Librerias_Estandar/
+│   └── 02_Librerías_Estándar/
 │   
-├── 03_programacion_orientada_objetos/ # Clases, herencia, polimorfismo y decoradores
+├── 03_Programación_orientada_objetos/ # Clases, herencia, polimorfismo y decoradores
 │   ├── 01_Clases_y_Objetos/
 │   ├── 02_Encapsulamiento/
 │   ├── 03_Herencia/
@@ -52,12 +52,12 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 │   ├── 01_Edutin Academy/
 │   └── 02_Coddy/
 │       ├──01_Fundamentos/ 
-│       └──02_Logica_y_Flujo/
+│       └──02_Lógica_y_Flujo/
 │   
-└── docs/                    # Apuntes teóricos, hojas de atajos (cheatsheets) y recursos
-    ├── 01_Bibliografia
+└── docs/                    # Apuntes teóricos, hojas de atajos y recursos
+    ├── 01_Bibliografía
     ├── 02_Constancias
-    └── 02_Imagenes
+    └── 02_Imágenes
 
 ```
 
@@ -81,7 +81,7 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 - 📜 **Introducción a la programación con Python** — *Santander Open Academy* | [Ver Certificado](./docs/02_Constancias/Certificado_Finalizacion_Enrique_ch.pdf)
 
 - 🎓 **[Curso de Python](https://edutin.com/curso-de-python)** — *Edutin Academy*
-- 📜 **Desarroyador Python** — *Edutin Academy* | [Ver Certificado](./docs/02_Constancias/Certificado_de_estudio_2026-08-28.pdf)
+- 📜 **Desarrollador Python** — *Edutin Academy* | [Ver Certificado](./docs/02_Constancias/Certificado_de_estudio_2026-08-28.pdf)
 
 - 🧩 **Coddy - Python Fundamentals** — *Coddy* | [Ver Certificado](./docs/02_Constancias/Python%20Fundamentals%20-%20Coddy.pdf)
 
