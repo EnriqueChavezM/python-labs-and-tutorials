@@ -20,6 +20,7 @@ Las estructuras de datos nos permiten organizar y almacenar datos de manera efic
     - [Creación y Acceso de Diccionarios](#creación-y-acceso-de-diccionarios)
     - [Añadir Nuevo Par *clave-valor*](#añadir-nuevo-par-clave-valor)
     - [Métodos de Diccionarios](#métodos-de-diccionarios)
+    - [Diccionarios Anidados](#diccionarios-anidados)
   - [Conjuntos](#conjuntos)
     - [Creación y Operaciones Básicas](#creación-y-operaciones-básicas)
     - [Métodos de Conjuntos](#métodos-de-conjuntos)
@@ -222,6 +223,7 @@ Puedes añadir nuevos pares clave-valor o actualizar los existentes.
   my_dict["age"] = 30       # Añadir un nuevo par clave-valor
   print(my_dict)            # Salida: {'name': 'Alice'}
   ```
+  
 - **Actualizar un valor existente:**
   
   ```python
@@ -247,6 +249,12 @@ Los diccionarios en Python tienen varios métodos incorporados para manipular y 
   - ***Sintaxis:*** `Nombre_diccionario.pop(clave)`
 - *del diccionario:* Borra la clave y su valor asociado directamente. Si la clave no existe, lanza un error (KeyError).
   - ***Sintaxis:*** `del Nombre_diccionario[clave]`
+
+### Diccionarios Anidados
+
+Un diccionario anidado es un diccionario dentro de otro diccionario. Te permite organizar estructuras de datos complejas, lo que facilita trabajar con información relacionada.
+
+Los diccionarios anidados son **útiles cuando** necesitas agrupar información relacionada, como almacenar detalles sobre estudiantes, empleados o productos.
 
 ---
 
