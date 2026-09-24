@@ -4,13 +4,16 @@
 
 ## Tabla de Contenido
 
-- [Aritméticos](#aritméticos)
-  - [Aritméticos de Asignación](#aritméticos-de-asignación)
-- [Lógicos](#lógicos)
-  - [Leyes de De Morgan](#leyes-de-de-morgan)
-- [Relacionales](#relacionales)
-- [Pertenencia *in*](#pertenencia-in)
-- [Ejemplo Practico](#ejemplo-practico)
+- [4. Operadores](#4-operadores)
+  - [Tabla de Contenido](#tabla-de-contenido)
+  - [Aritméticos](#aritméticos)
+    - [Aritméticos de Asignación](#aritméticos-de-asignación)
+  - [Lógicos](#lógicos)
+    - [Leyes de De Morgan](#leyes-de-de-morgan)
+  - [Relacionales](#relacionales)
+  - [Pertenencia *in*](#pertenencia-in)
+    - [Usos de pertenencia](#usos-de-pertenencia)
+  - [Ejemplo Practico](#ejemplo-practico)
 
 ---
 
@@ -93,6 +96,17 @@ elemento in secuencia
 elemento not in secuencia
 ```
 
+### Usos de pertenencia
+<!-- markdownlint-disable MD033 -->
+| **Uso** | **Contexto/Sintaxis** | **Descripción** |
+| :---: | :---: | :--- |
+| Secuencias*(Listas y Tuplas)* | `elemento in secuencia` | Comprueba si el elemento se encuentra dentro de una lista o tupla. |
+| Cadenas de texto *(Strings)* | ``subcadena in cadena`` | Verifica si un fragmento de texto o carácter forma parte de una cadena más larga. |
+| Diccionarios *(Claves)* | <ul><li>`clave in diccionario`</li><li>`clave in diccionario.key()`</li></ul> | Comprueba de forma predeterminada si una clave existe en el diccionario **(no busca en los valores).** |
+| Conjuntos *(Sets)* | ``elemento in conjunto`` | Realiza una búsqueda de pertenencia optimizada con un rendimiento muy eficiente **($O(1)$ en promedio).** |
+| Bucles for *(Iteración)* | ``for variable in iterable`` | Define la secuencia sobre la cual el bucle va a iterar elemento por elemento. |
+| Comprensiones *(List, Set, Dict)* | ``[x for x in iterable]`` | Se utiliza dentro de las comprensiones para extraer y procesar elementos de un iterable. |
+<!-- markdownlint-enable MD033 -->
 ---
 
 ## Ejemplo Practico
