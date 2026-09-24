@@ -6,18 +6,22 @@ Nos permite controlar el flujo de ejecución de un programa
 
 ## Tabla de Contenido
 
-- [Estructuras Condicionales](#estructuras-condicionales)
-  - [Estructura `if`](#estructura-if)
-  - [Estructura `if-else`](#estructura-if-else)
-  - [Estructura `if-elif-else`](#estructura-if-elif-else)
-- [Estructura Bucle / loop](#estructura-bucle--loop)
-  - [Estructura `for`](#estructura-for)
-  - [Estructura `while`](#estructura-while)
-  - [Control de Bucle](#control-de-bucle)
-    - [Control `Break`](#control-break)
-    - [Control `Continue`](#control-continue)
-    - [Control `Pass`](#control-pass)
-- [Ejemplos Practicos](#ejemplos-precticos)
+- [5. Estructuras de control](#5-estructuras-de-control)
+  - [Tabla de Contenido](#tabla-de-contenido)
+  - [Estructuras Condicionales](#estructuras-condicionales)
+    - [Estructura `if`](#estructura-if)
+    - [Estructura `if-else`](#estructura-if-else)
+    - [Estructura `if-elif-else`](#estructura-if-elif-else)
+    - [Condicionales anidados](#condicionales-anidados)
+  - [Estructura Bucle / loop](#estructura-bucle--loop)
+    - [Estructura `for`](#estructura-for)
+    - [Estructura `while`](#estructura-while)
+    - [Control de Bucle](#control-de-bucle)
+      - [Control `Break`](#control-break)
+      - [Control `Continue`](#control-continue)
+      - [Control `Pass`](#control-pass)
+    - [Bucles anidados](#bucles-anidados)
+  - [Ejemplos Prácticos](#ejemplos-prácticos)
 
 ---
 
@@ -32,10 +36,10 @@ Su función es realizar o no una determinada acción o sentencia, basándose en 
 
 ```python
 if "Condicional":
-    # Bloque de codigo a ejecutar si la condición es verdad
+    # Bloque de código a ejecutar si la condición es verdad
 ```
 
-**Diagrama de flujo**
+**Diagrama de flujo:**
 
 ```mermaid
 ---
@@ -55,12 +59,12 @@ La estructura selectiva doble ``if - else`` permite toma de decisión. Si la con
 
 ```python
 if "Condicional":
-    # Bloque de codigo a ejecutar si la condición es verdad
+    # Bloque de código a ejecutar si la condición es verdad
 else:
-    # Bloque de codigo a ejecutar si la condición es falsa
+    # Bloque de código a ejecutar si la condición es falsa
 ```
 
-**Diagrama de flujo**
+**Diagrama de flujo:**
 
 ```mermaid
 ---
@@ -81,14 +85,14 @@ Permite establecer una serie de condiciones al interior del programa, que ayuda 
 
 ```python
 if "Condicional":
-    # Bloque de codigo a ejecutar si la condición es verdad
+    # Bloque de código a ejecutar si la condición es verdad
 elif "Condicional":
-    # Bloque de codigo a ejecutar si if es falso y la condición es verdad
+    # Bloque de código a ejecutar si if es falso y la condición es verdad
 else:
-    # Bloque de codigo a ejecutar si todas las condiciónes son falsa
+    # Bloque de código a ejecutar si todas las condiciones son falsa
 ```
 
-**Diagrama de flujo**
+**Diagrama de flujo:**
 
 ```mermaid
 ---
@@ -105,6 +109,23 @@ graph TD
     F --> G
 ```
 
+### Condicionales anidados
+
+Las instrucciones anidadas if-elif-else permiten tomar decisiones jerárquicas. El anidamiento puede ser infinito, lo que permite crear árboles de decisión complejos
+
+***Sintaxis***
+
+```python
+if condition1:
+    if condition2:
+        # Código para cuando ambas condiciones son verdaderas
+    else:
+        # Código para cuando condition1 es verdadera pero condition2 es falsa
+else:
+    # Código para cuando condition1 es falsa
+
+```
+
 ---
 
 ## Estructura Bucle / loop
@@ -118,21 +139,22 @@ Se utiliza para iterar sobre una secuencia o bloque de código.
 
 ```python
 for i  in range(x,y,z):
-    #Bloque de codigo a ejecutar para cada valor en el rango
+    #Bloque de código a ejecutar para cada valor en el rango
 ```
 
 | Símbolo | Descripción |
 | :---: | :---: |
-| i | Variable de interasion |
+| i | Variable de interacción |
 | x | Determina cual es el valor de inicio, por defecto tiene un valor de 0 |
 | y | Determina el valor de fin (sin incluir y) |
 | z | Incremento o valor de paso, por defecto tiene un valor de +1 (Opcional) |
 
 > [!NOTE]
+>
 > 1. Cuando *x = 0*, podemos simplificar *range (0, y)* como *range(y)*.
-> 2. Tambien es posible usar un valor de paso negativo. Al usar un paso negativo, el valor inicial debe ser mayor que el final. El valor final sigue siendo excluido.
+> 2. También es posible usar un valor de paso negativo. Al usar un paso negativo, el valor inicial debe ser mayor que el final. El valor final sigue siendo excluido.
 
-**Diagrama de flujo**
+**Diagrama de flujo:**
 
 ```mermaid
 ---
@@ -157,10 +179,10 @@ Se utiliza para repetir un bloque de código mientras una condición sea verdade
 
 ```python
 while "Condicional":
-    #Bloque de codigo a ejecutar mientras la condición sea verdadera
+    #Bloque de código a ejecutar mientras la condición sea verdadera
 ```
 
-**Diagrama de flujo**
+**Diagrama de flujo:**
 
 ```mermaid
 ---
@@ -175,7 +197,7 @@ graph TD
 
 ### Control de Bucle
 
-Existen algunas instruciones especiales para controlar el flujo de ejecución dentro de los bucles.
+Existen algunas instrucciones especiales para controlar el flujo de ejecución dentro de los bucles.
 
 #### Control `Break`
 
@@ -191,7 +213,7 @@ while True:
         break
 ```
 
-El bucle *while* se ejecuta indefinidamente debido a la condición *True*. Se utiliza una estructura condicional para verificar si **contador es igual a 5**. Cuando se cumple esta condición, el bucle se detene y el flujo de ejecución continúe fuera del bucle.
+El bucle *while* se ejecuta indefinidamente debido a la condición *True*. Se utiliza una estructura condicional para verificar si **contador es igual a 5**. Cuando se cumple esta condición, el bucle se detiene y el flujo de ejecución continúe fuera del bucle.
 
 #### Control `Continue`
 
@@ -219,9 +241,27 @@ for i in range(5):
 
 El bucle itera sobre los números del 0 al 4, pero no se realiza ninguna acción dentro debido a la instrucción *pass*. Esto puede ser útil cuando se está desarrollando un programa y se desea reservar un bloque de código para implementarlo más adelante.
 
+### Bucles anidados
+
+Los bucles anidados son bucles dentro de otros bucles. El bucle interno completa todas las iteraciones por cada iteración del bucle externo, de manera similar a cómo el minutero de un reloj completa un ciclo completo por cada hora.
+
+**Ejemplo:**
+
+```python
+for x in range(2):
+    for y in range(2):
+        print(x, y)
+
+# Salida:
+# 0 0
+# 0 1
+# 1 0
+# 1 1
+```
+
 ---
 
-## Ejemplos Precticos
+## Ejemplos Prácticos
 
 - [Ejemplo Condicionales Simples `if-else`](/01-Fundamentos/05-Estructuras_de_Control/02_Condicionales_Simples.py)
 - [Ejemplo Condicionales `elif`](/01-Fundamentos/05-Estructuras_de_Control/03_Condicionales_elif.py)
@@ -229,7 +269,7 @@ El bucle itera sobre los números del 0 al 4, pero no se realiza ninguna acción
 - [Ejemplo Estructura `for`](/01-Fundamentos/05-Estructuras_de_Control/05_Estructura_for.py)
 - [Ejemplo Estructura `while`](/01-Fundamentos/05-Estructuras_de_Control/06_Estructura_while.py)
 - [Ejemplo Control de Bucle](/01-Fundamentos/05-Estructuras_de_Control/07_Control_Bucle.py)
-- [Ejemplo Bucles Anilados](/01-Fundamentos/05-Estructuras_de_Control/08_Bucles_anidados.py)
+- [Ejemplo Bucles Anidados](/01-Fundamentos/05-Estructuras_de_Control/08_Bucles_anidados.py)
 
 ---
 
