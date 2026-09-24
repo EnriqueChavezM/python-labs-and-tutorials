@@ -1,10 +1,11 @@
 # Python Learning Journey 🐍
-
-<img src="/docs/03_Imágenes/icono_py.jpg" align="left" width="100">
+<!-- markdownlint-disable MD033 -->
+<img src="/docs/03_Imágenes/icono_py.jpg" align="left" width="100" alt=Icono>
 
 Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y documentación del lenguaje **Python**. En este espacio voy consolidando conceptos teóricos, ejercicios prácticos, proyectos pequeños y notas sobre desarrollo de software, manipulación de datos y automatización.
 
 <br clear="left" /> <!-- Limpia el flujo flotante -->
+
 ---
 
 ## 📌 Objetivos del Repositorio
@@ -57,7 +58,7 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 └── docs/                    # Apuntes teóricos, hojas de atajos y recursos
     ├── 01_Bibliografía
     ├── 02_Constancias
-    └── 02_Imágenes
+    └── 03_Imágenes
 
 ```
 
@@ -90,5 +91,6 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 ## 👤 Autor
 
 Desarrollado con dedicación por **Enrique Chávez Márquez**.
+
 - 🐙 **GitHub:** [@EnriqueChavezM](https://github.com/EnriqueChavezM)
 - 💼 **LinkedIn:** [Enrique Chavez Marquez](https://www.linkedin.com/in/enrique-chavez-marquez-8a5a19326/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAiL37dQVSqStvMo5Ozc5Xw%3D%3D)
