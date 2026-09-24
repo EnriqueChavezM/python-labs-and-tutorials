@@ -1,8 +1,6 @@
-<img src="/docs/03_Imágenes/icono_py.jpg" align="left" width="100">
-
 # Tabla de contenido
 
-<br clear="left" /> <!-- Limpia el flujo flotante -->
+---
 
 ## 1. Fundamentos
 
