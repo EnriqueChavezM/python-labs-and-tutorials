@@ -38,10 +38,10 @@ Bienvenido/a a mi repositorio personal dedicado al aprendizaje, práctica y docu
 │   
 ├── 02_Módulos_Librerías/    # Elaboración y desarrollo de módulos individuales y bibliotecas del sistema.
 │   ├── 01_Importar_Módulos/
-│   ├── 03_Modulo_Personalizado_Paquete/
+│   ├── 02_Modulo_Personalizado_Paquete/
 │   │   └── Paquete/
 │   │
-│   └── 02_Librerías_Estándar/
+│   └── 03_Librerías_Estándar/
 │   
 ├── 03_Programación_orientada_objetos/ # Clases, herencia, polimorfismo y decoradores
 │   ├── 01_Clases_y_Objetos/
