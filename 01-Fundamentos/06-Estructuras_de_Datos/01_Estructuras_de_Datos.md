@@ -10,15 +10,18 @@ Las estructuras de datos nos permiten organizar y almacenar datos de manera efic
   - [Tabla de Contenido](#tabla-de-contenido)
   - [Listas](#listas)
     - [Creación y Acceso de Listas](#creación-y-acceso-de-listas)
+      - [Iterar lista](#iterar-lista)
     - [Métodos de Listas](#métodos-de-listas)
     - [Listas de Comprensión](#listas-de-comprensión)
     - [Segmentación de Listas (*Slicing*)](#segmentación-de-listas-slicing)
+    - [Operadores de manipulación](#operadores-de-manipulación)
   - [Tuplas](#tuplas)
     - [Creación y Acceso de Tuplas](#creación-y-acceso-de-tuplas)
     - [Métodos de Tuplas](#métodos-de-tuplas)
   - [Diccionarios](#diccionarios)
     - [Creación y Acceso de Diccionarios](#creación-y-acceso-de-diccionarios)
-    - [Añadir Nuevo Par *clave-valor*](#añadir-nuevo-par-clave-valor)
+      - [Añadir Nuevo Par *clave-valor*](#añadir-nuevo-par-clave-valor)
+      - [Iterar Sobre Diccionarios](#iterar-sobre-diccionarios)
     - [Métodos de Diccionarios](#métodos-de-diccionarios)
     - [Diccionarios Anidados](#diccionarios-anidados)
   - [Conjuntos](#conjuntos)
@@ -64,6 +67,17 @@ print(Nombre_lista[-1])  #Imprime el dato del indice -1
 print(Nombre_lista[-2])  #Imprime el dato del indice -2
 ...
 print(Nombre_lista[-n])  #Imprime el dato del indice -n
+```
+
+#### Iterar lista
+
+Para iterar sobre una lista se utiliza la función ``len()`` que devuelve la longitud de la lista.
+
+- **Ejemplo**
+
+```python
+for i in range(len(Nombre_lista)):
+    Nombre_lista[i]  # Accede a cada elemento
 ```
 
 ### Métodos de Listas
@@ -125,6 +139,26 @@ lista[inicio : fin : paso]
 - *inicio*: El índice donde comienza la extracción **(incluido)**. Si se omite, toma por defecto 0.
 - *fin*: El índice donde termina la extracción **(excluido; no toma este elemento)**. Si se omite, va hasta el final de la lista.
 - *paso*: El salto entre elementos **(opcional, por defecto es 1)**.
+
+### Operadores de manipulación
+
+Las  operaciones básicas que se pueden realizar en una lista son:
+
+- **Concatenación (``+``):** Permite unir dos o más listas para formar una nueva.
+  - **Ejemplo:**
+  
+    ```python
+    bloque_a = ["log_1.txt", "log_2.txt"]
+    bloque_b = ["log_3.txt"]
+    todos_los_logs = bloque_a + bloque_b  # ['log_1.txt', 'log_2.txt', 'log_3.txt']
+    ```
+
+- **Repetición (``*``):** Multiplica los elementos de una lista un número determinado de veces.
+  - **Ejemplo:**
+  
+    ```python
+    lista = [0] * 4  # [0, 0, 0, 0]
+    ```
 
 ---
 
@@ -211,7 +245,7 @@ print(Nombre_diccionario[1])  #Imprime el dato del indice 1
 print(Nombre_diccionario[n])  #Imprime el dato del indice n
 ```
 
-### Añadir Nuevo Par *clave-valor*
+#### Añadir Nuevo Par *clave-valor*
 
 Puedes añadir nuevos pares clave-valor o actualizar los existentes.
 
@@ -229,6 +263,46 @@ Puedes añadir nuevos pares clave-valor o actualizar los existentes.
   ```python
   my_dict["age"] = 31       # Actualizar la edad
   print(my_dict)            # Salida: {'name': 'Alice', 'age': 31}
+  ```
+
+#### Iterar Sobre Diccionarios
+
+Recorrer un diccionario te permite acceder a cada par clave-valor y realizar operaciones sobre ellos. Python proporciona varias formas de iterar a través de diccionarios, lo que facilita el trabajo con su contenido.
+
+**Ejemplos:**
+
+- *Iterando a través de las claves:*  El bucle itera sobre las claves del diccionario.
+  
+  ```python
+  my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}
+  for key in my_dict:
+    print(key)
+  # Salida
+  # name
+  # age
+  # city
+  ```
+
+- *Iterando a través de los valores:* El bucle itera sobre los valores utilizando el método ``values()``.
+  
+  ```python
+  for value in my_dict.values():
+    print(value)
+  # Salida
+  # Alice
+  # 30
+  # New York
+  ```
+
+- *Recorriendo pares clave-valor:* El bucle utiliza el método ``items()`` para iterar tanto sobre las claves como sobre los valores simultáneamente.
+  
+  ```python
+  for key, value in my_dict.items():
+    print(f'{key}: {value}')
+  # Salida
+  # name: Alice
+  # age: 30
+  # city: New York
   ```
 
 ### Métodos de Diccionarios
