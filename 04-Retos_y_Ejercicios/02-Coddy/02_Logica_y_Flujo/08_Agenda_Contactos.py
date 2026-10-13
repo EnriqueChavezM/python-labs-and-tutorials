@@ -24,6 +24,17 @@ En este proyecto, construiremos paso a paso una aplicación de agenda de contact
 	            "address": address
                 }
         2.2.4. Luego imprime: "Contact added successfully!".
+3. Crea una función llamada 'view_contact' que muestre los detalles de un contacto específico.
+    3.1. Tu función debe:
+        3.1.1. Aceptar un diccionario de agenda de contactos como parámetro
+        3.1.2. Obtener un nombre de contacto de la entrada del usuario (usando input())
+        3.1.3. Mostrar los detalles del contacto si se encuentra
+        3.1.4. Imprimir "Contact not found!" si el contacto no existe
+    3.2. Al mostrar un contacto, utiliza este formato exacto:
+        3.2.1.  Name: [name]
+                Phone: [phone]
+                Email: [email]
+                Address: [address]
 
 *******************************************************************************************"""
 # Función Menú
@@ -39,22 +50,32 @@ def display_menu():
 
 #Función Guardar Contacto
 def add_contact(contact_book):
-    datos = {}
     nombre = input("Ingrese el nombre: ")
-    tel = input(f"Ingrese el teléfono del contacto {nombre}: ")
-    datos['phone'] = tel
-    email = input(f"Ingrese el correo electrónico del contacto {nombre}: ")
-    datos['email'] = email
-    dire = input(f"Ingrese la dirección del contacto {nombre}: ")
-    datos['address'] = dire
 
     # Verificar existencia de nombre
     if nombre in contact_book:
         print("Contact already exists!")
+        return #salir si existe
+
+    # Sin no existe  
+    phone = input(f"Ingrese el teléfono del contacto {nombre}: ")
+    email = input(f"Ingrese el correo electrónico del contacto {nombre}: ")
+    address = input(f"Ingrese la dirección del contacto {nombre}: ")
+    contact_book[nombre] = {"phone": phone, "email": email, "address": address}
+    print("Contact added successfully!")
+
+# Función Mostrar Contacto
+def view_contact(diccionario):
+    nombre = input("Ingrese Nombre de Contacto ")
+    if nombre in diccionario:
+        print(f"Name: {nombre}")
+        print(f"Phone: {diccionario[nombre]['phone']}")
+        print(f"Email: {diccionario[nombre]['email']}")
+        print(f"Address: {diccionario[nombre]['address']}")
+
     else:
-        contact_book[nombre] = datos
-        print("Contact added successfully!")
-        print(contact_book)
+        print("Contact not found!" )
+
 
     
 
@@ -69,3 +90,4 @@ prueba = {
     }
 
 add_contact(prueba)
+view_contact(prueba)
