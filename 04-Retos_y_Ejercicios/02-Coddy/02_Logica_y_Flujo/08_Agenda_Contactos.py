@@ -35,6 +35,15 @@ En este proyecto, construiremos paso a paso una aplicación de agenda de contact
                 Phone: [phone]
                 Email: [email]
                 Address: [address]
+4. Crea una función llamada 'edit_contact' que reciba un argumento: contact_book (un diccionario).
+    4.1. Obtén la entrada para el nombre del contacto que el usuario desea editar.
+    4.2. Verifica si el nombre existe en el contact_book:
+        4.2.1. Si existe, solicita al usuario que ingrese nuevos valores para el teléfono, correo electrónico y dirección del contacto (¡en ese orden!).
+        4.2.2. Si el usuario no proporciona ninguna entrada (presiona Enter), mantén el valor actual para ese campo (en este caso, la entrada será una cadena vacía, '').
+        4.2.3. Actualiza la información del contacto en el diccionario.
+        4.2.4. Imprime: "Contact updated successfully!".
+    4.3. Si el contacto no existe, imprime: 
+        4.3.1. "Contact not found!".
 
 *******************************************************************************************"""
 # Función Menú
@@ -65,17 +74,29 @@ def add_contact(contact_book):
     print("Contact added successfully!")
 
 # Función Mostrar Contacto
-def view_contact(diccionario):
+def view_contact(contact_book):
     nombre = input("Ingrese Nombre de Contacto ")
-    if nombre in diccionario:
+    if nombre in contact_book:
         print(f"Name: {nombre}")
-        print(f"Phone: {diccionario[nombre]['phone']}")
-        print(f"Email: {diccionario[nombre]['email']}")
-        print(f"Address: {diccionario[nombre]['address']}")
+        print(f"Phone: {contact_book[nombre]['phone']}")
+        print(f"Email: {contact_book[nombre]['email']}")
+        print(f"Address: {contact_book[nombre]['address']}")
 
     else:
         print("Contact not found!" )
 
+# Función Editar Contacto
+def edit_contact(contact_book):
+    nombre = input("Ingrese Nombre de Contacto ")
+    if nombre in contact_book:
+        phone = input(f"Ingrese el nuevo teléfono del contacto {nombre}: ")
+        email = input(f"Ingrese el nuevo correo electrónico del contacto {nombre}: ")
+        address = input(f"Ingrese la nueva dirección del contacto {nombre}: ")
+        contact_book[nombre] = {"phone": phone, "email": email, "address": address}
+        print("Contact updated successfully!")
+    
+    else:
+        print("Contact not found!" )
 
     
 
@@ -88,6 +109,9 @@ prueba = {
         "address": "456 Oak Ave"
         }
     }
+prueba2 = {}
+#add_contact(prueba)
+#view_contact(prueba)
+edit_contact(prueba)
 
-add_contact(prueba)
-view_contact(prueba)
+print (prueba)
