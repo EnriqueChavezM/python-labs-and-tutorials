@@ -44,6 +44,17 @@ En este proyecto, construiremos paso a paso una aplicación de agenda de contact
         4.2.4. Imprime: "Contact updated successfully!".
     4.3. Si el contacto no existe, imprime: 
         4.3.1. "Contact not found!".
+5. Crea una función llamada 'delete_contact' que reciba un argumento: contact_book (un diccionario).
+    5.1. Obtén la entrada para el nombre del contacto que el usuario desea eliminar.
+    5.2. Comprueba si el nombre existe en el contact_book:
+        5.2.1. Si existe, elimina el contacto del diccionario.
+        5.2.2. Imprime: "Contact deleted successfully!".
+        5.2.3. Si el contacto no existe, imprime: "Contact not found!".
+6. Crea una función llamada 'list_all_contacts' que reciba un argumento: contact_book (un diccionario).
+    6.1. Verifica si el contact_book está vacío:
+        6.1.1. Si está vacío, imprime: "No contacts available.".
+        6.1.2. Si no está vacío:
+            6.1.2.1. Recorre cada contacto en el diccionario e imprime su nombre, teléfono, correo electrónico y dirección en un formato legible.
 
 *******************************************************************************************"""
 # Función Menú
@@ -59,7 +70,7 @@ def display_menu():
 
 #Función Guardar Contacto
 def add_contact(contact_book):
-    nombre = input("Ingrese el nombre: ")
+    nombre = input("Ingrese Nombre de Contacto: ")
 
     # Verificar existencia de nombre
     if nombre in contact_book:
@@ -75,7 +86,7 @@ def add_contact(contact_book):
 
 # Función Mostrar Contacto
 def view_contact(contact_book):
-    nombre = input("Ingrese Nombre de Contacto ")
+    nombre = input("Ingrese Nombre de Contacto: ")
     if nombre in contact_book:
         print(f"Name: {nombre}")
         print(f"Phone: {contact_book[nombre]['phone']}")
@@ -87,7 +98,7 @@ def view_contact(contact_book):
 
 # Función Editar Contacto
 def edit_contact(contact_book):
-    nombre = input("Ingrese Nombre de Contacto ")
+    nombre = input("Ingrese Nombre de Contacto: ")
     if nombre in contact_book:
         phone = input(f"Ingrese el nuevo teléfono del contacto {nombre}: ")
         email = input(f"Ingrese el nuevo correo electrónico del contacto {nombre}: ")
@@ -98,20 +109,48 @@ def edit_contact(contact_book):
     else:
         print("Contact not found!" )
 
-    
+# Función Eliminar Contacto
+def delete_contact(contact_book):
+    name = input("Ingrese Nombre de Contacto a Eliminar: ")
+    if name in contact_book:
+        contact_book.pop(name)
+        print("Contact deleted successfully!")
+        
+    else:
+        print("Contact not found!")
+        
+# Función Lista de Contactos
+def list_all_contacts(contact_book):
+    if contact_book:
+        for key in contact_book:
+            print(f"Name: {key}")
+            print(f"Phone: {contact_book[key]['phone']}")
+            print(f"Email: {contact_book[key]['email']}")
+            print(f"Address: {contact_book[key]['address']}\n")
+    else: 
+        print("No contacts available.")
 
-display_menu()
+#display_menu()
 
 prueba = {
     "Bob": {
         "phone": "234-567-8901",
         "email": "bob@example.com", 
         "address": "456 Oak Ave"
+        },
+    "Alice": {
+        "phone": "123-456-7890", 
+        "email": "alice@example.com", 
+        "address": "123 Main St"
         }
     }
 prueba2 = {}
 #add_contact(prueba)
 #view_contact(prueba)
-edit_contact(prueba)
+#edit_contact(prueba)
+#delete_contact(prueba)
+list_all_contacts(prueba2)
 
-print (prueba)
+
+
+
