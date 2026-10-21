@@ -56,13 +56,13 @@ En este proyecto, construiremos paso a paso una aplicación de agenda de contact
         6.1.2. Si no está vacío:
             6.1.2.1. Recorre cada contacto en el diccionario e imprime su nombre, teléfono, correo electrónico y dirección en un formato legible.
 7. Combina las funciones que has creado
-8. Crea un diccionario llamado contact_book para almacenar los contactos.
-Escribe un bucle que:
-Muestre el menú usando display_menu.
-Acepte la entrada del usuario para la opción del menú.
-Llame a la función correspondiente según la opción del usuario.
-Imprima Invalid choice. Please try again. si el usuario introduce una opción que no es una de las opciones válidas del menú.
-Continúe hasta que el usuario seleccione la opción para salir del programa.
+8. Crea un diccionario llamado 'book' para almacenar los contactos.
+9. Escribe un bucle que:
+    9.1. Muestre el menú usando display_menu.
+    9.2. Acepte la entrada del usuario para la opción del menú.
+    9.3. Llame a la función correspondiente según la opción del usuario.
+    9.4. Imprima "Invalid choice. Please try again". si el usuario introduce una opción que no es una de las opciones válidas del menú.
+    9.5. Continúe hasta que el usuario seleccione la opción para salir del programa.
 
 *******************************************************************************************"""
 # Función Menú
@@ -169,4 +169,4 @@ while continuar:
         continuar = False
 
     else:
-        print("Valor de menu invalido. Intente de nuevo\n")
+        print("Invalid choice. Please try again.\n")
