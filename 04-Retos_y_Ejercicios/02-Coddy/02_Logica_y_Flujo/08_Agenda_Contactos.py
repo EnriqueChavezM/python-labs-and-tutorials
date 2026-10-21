@@ -55,6 +55,14 @@ En este proyecto, construiremos paso a paso una aplicación de agenda de contact
         6.1.1. Si está vacío, imprime: "No contacts available.".
         6.1.2. Si no está vacío:
             6.1.2.1. Recorre cada contacto en el diccionario e imprime su nombre, teléfono, correo electrónico y dirección en un formato legible.
+7. Combina las funciones que has creado
+8. Crea un diccionario llamado contact_book para almacenar los contactos.
+Escribe un bucle que:
+Muestre el menú usando display_menu.
+Acepte la entrada del usuario para la opción del menú.
+Llame a la función correspondiente según la opción del usuario.
+Imprima Invalid choice. Please try again. si el usuario introduce una opción que no es una de las opciones válidas del menú.
+Continúe hasta que el usuario seleccione la opción para salir del programa.
 
 *******************************************************************************************"""
 # Función Menú
@@ -74,7 +82,7 @@ def add_contact(contact_book):
 
     # Verificar existencia de nombre
     if nombre in contact_book:
-        print("Contact already exists!")
+        print("Contact already exists!\n")
         return #salir si existe
 
     # Sin no existe  
@@ -82,7 +90,7 @@ def add_contact(contact_book):
     email = input(f"Ingrese el correo electrónico del contacto {nombre}: ")
     address = input(f"Ingrese la dirección del contacto {nombre}: ")
     contact_book[nombre] = {"phone": phone, "email": email, "address": address}
-    print("Contact added successfully!")
+    print("Contact added successfully!\n")
 
 # Función Mostrar Contacto
 def view_contact(contact_book):
@@ -91,10 +99,10 @@ def view_contact(contact_book):
         print(f"Name: {nombre}")
         print(f"Phone: {contact_book[nombre]['phone']}")
         print(f"Email: {contact_book[nombre]['email']}")
-        print(f"Address: {contact_book[nombre]['address']}")
+        print(f"Address: {contact_book[nombre]['address']}\n")
 
     else:
-        print("Contact not found!" )
+        print("Contact not found!\n" )
 
 # Función Editar Contacto
 def edit_contact(contact_book):
@@ -104,20 +112,20 @@ def edit_contact(contact_book):
         email = input(f"Ingrese el nuevo correo electrónico del contacto {nombre}: ")
         address = input(f"Ingrese la nueva dirección del contacto {nombre}: ")
         contact_book[nombre] = {"phone": phone, "email": email, "address": address}
-        print("Contact updated successfully!")
+        print("Contact updated successfully!\n")
     
     else:
-        print("Contact not found!" )
+        print("Contact not found!\n" )
 
 # Función Eliminar Contacto
 def delete_contact(contact_book):
     name = input("Ingrese Nombre de Contacto a Eliminar: ")
     if name in contact_book:
         contact_book.pop(name)
-        print("Contact deleted successfully!")
+        print("Contact deleted successfully!\n")
         
     else:
-        print("Contact not found!")
+        print("Contact not found!\n")
         
 # Función Lista de Contactos
 def list_all_contacts(contact_book):
@@ -128,29 +136,37 @@ def list_all_contacts(contact_book):
             print(f"Email: {contact_book[key]['email']}")
             print(f"Address: {contact_book[key]['address']}\n")
     else: 
-        print("No contacts available.")
+        print("No contacts available.\n")
 
-#display_menu()
+#------------------------------------------------------------------------------------------------#
+continuar = True
+book = {}
 
-prueba = {
-    "Bob": {
-        "phone": "234-567-8901",
-        "email": "bob@example.com", 
-        "address": "456 Oak Ave"
-        },
-    "Alice": {
-        "phone": "123-456-7890", 
-        "email": "alice@example.com", 
-        "address": "123 Main St"
-        }
-    }
-prueba2 = {}
-#add_contact(prueba)
-#view_contact(prueba)
-#edit_contact(prueba)
-#delete_contact(prueba)
-list_all_contacts(prueba2)
+while continuar:
+    # Mostrar Menu
+    display_menu()
 
+    # Seleccionar opción del menu
+    op = int(input("Ingrese el numero del menu: "))
 
+    # Ingresar a menu seleccionado 
+    if op == 1:
+        add_contact(book)
 
+    elif op == 2:
+        view_contact(book)
 
+    elif op == 3:
+        edit_contact(book)
+
+    elif op == 4:
+        delete_contact(book)
+
+    elif op == 5:
+        list_all_contacts(book)
+
+    elif op == 6:
+        continuar = False
+
+    else:
+        print("Valor de menu invalido. Intente de nuevo\n")
