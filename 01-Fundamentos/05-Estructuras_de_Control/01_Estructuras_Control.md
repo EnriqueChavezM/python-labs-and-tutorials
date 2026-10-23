@@ -13,6 +13,7 @@ Nos permite controlar el flujo de ejecución de un programa
     - [Estructura `if-else`](#estructura-if-else)
     - [Estructura `if-elif-else`](#estructura-if-elif-else)
     - [Condicionales anidados](#condicionales-anidados)
+    - [Operador Ternario](#operador-ternario)
   - [Estructura Bucle / loop](#estructura-bucle--loop)
     - [Estructura `for`](#estructura-for)
     - [Estructura `while`](#estructura-while)
@@ -125,6 +126,24 @@ else:
     # Código para cuando condition1 es falsa
 
 ```
+
+### Operador Ternario
+
+El operador ternario es una forma concisa de escribir sentencias `if-else` simples en una sola línea.
+
+***Sintaxis***
+
+```python
+valor_if_true if condición else valor_if_false
+```
+
+Así es como funciona:
+
+- Si la condition es **verdadera**, la expresión se evalúa como valor_if_true.
+- Si la condition es **falsa**, la expresión se evalúa como valor_if_false.
+
+El operador ternario es particularmente útil para *asignaciones condicionales simples* donde se desea elegir entre dos valores basándose en una condición.
+También puedes usar el operador ternario directamente dentro de una llamada a `print()`, sin asignar primero el resultado a una variable
 
 ---
 
@@ -263,13 +282,16 @@ for x in range(2):
 
 ## Ejemplos Prácticos
 
-- [Ejemplo Condicionales Simples `if-else`](/01-Fundamentos/05-Estructuras_de_Control/02_Condicionales_Simples.py)
-- [Ejemplo Condicionales `elif`](/01-Fundamentos/05-Estructuras_de_Control/03_Condicionales_elif.py)
-- [Ejemplo Condicionales Anidados](/01-Fundamentos/05-Estructuras_de_Control/04_Condicionales_anidados.py)
-- [Ejemplo Estructura `for`](/01-Fundamentos/05-Estructuras_de_Control/05_Estructura_for.py)
-- [Ejemplo Estructura `while`](/01-Fundamentos/05-Estructuras_de_Control/06_Estructura_while.py)
-- [Ejemplo Control de Bucle](/01-Fundamentos/05-Estructuras_de_Control/07_Control_Bucle.py)
-- [Ejemplo Bucles Anidados](/01-Fundamentos/05-Estructuras_de_Control/08_Bucles_anidados.py)
+1. **Estructura Condicional**
+   1. [Condicionales Simples `if-else`](/01-Fundamentos/05-Estructuras_de_Control/02_Condicionales_Simples.py)
+   2. [Condicionales `elif`](/01-Fundamentos/05-Estructuras_de_Control/03_Condicionales_elif.py)
+   3. [Condicionales Anidados](/01-Fundamentos/05-Estructuras_de_Control/04_Condicionales_anidados.py)
+   4. [Operador Ternario](/01-Fundamentos/05-Estructuras_de_Control/09_Operador_Ternario.py)
+2. **Estructura Bucle / Loop**
+   1. [Ejemplo Estructura `for`](/01-Fundamentos/05-Estructuras_de_Control/05_Estructura_for.py)
+   2. [Ejemplo Estructura `while`](/01-Fundamentos/05-Estructuras_de_Control/06_Estructura_while.py)
+   3. [Ejemplo Control de Bucle](/01-Fundamentos/05-Estructuras_de_Control/07_Control_Bucle.py)
+   4. [Ejemplo Bucles Anidados](/01-Fundamentos/05-Estructuras_de_Control/08_Bucles_anidados.py)
 
 ---
 
