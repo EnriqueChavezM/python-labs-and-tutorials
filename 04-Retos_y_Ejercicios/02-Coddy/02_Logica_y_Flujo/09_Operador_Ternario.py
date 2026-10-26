@@ -11,7 +11,3 @@ Desafío 1:
 temperature = float(input("Ingrese la temperatura actual en °C: "))
 
 print("Hot" if temperature > 30 else "Normal")
-
-my_dict = {"name": "Alice", "age": 25}
-print("name" in my_dict)  # True
-print("Alice" in my_dict)  # False
