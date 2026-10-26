@@ -14,6 +14,7 @@ Nos permite controlar el flujo de ejecución de un programa
     - [Estructura `if-elif-else`](#estructura-if-elif-else)
     - [Condicionales anidados](#condicionales-anidados)
     - [Operador Ternario](#operador-ternario)
+    - [Comprobaciones de pertenencia](#comprobaciones-de-pertenencia)
   - [Estructura Bucle / loop](#estructura-bucle--loop)
     - [Estructura `for`](#estructura-for)
     - [Estructura `while`](#estructura-while)
@@ -144,6 +145,31 @@ Así es como funciona:
 
 El operador ternario es particularmente útil para *asignaciones condicionales simples* donde se desea elegir entre dos valores basándose en una condición.
 También puedes usar el operador ternario directamente dentro de una llamada a `print()`, sin asignar primero el resultado a una variable
+
+### Comprobaciones de pertenencia
+
+Las comprobaciones de pertenencia te permiten **verificar si un valor existe en una colección**, como una *lista*, una *tupla*, un *conjunto* o un *diccionario*, usando `in` y `not in`. Las comprobaciones de pertenencia regresan un `True` o `False` según sea el caso.
+
+***Sintaxis***
+
+```python
+#Comprueba si existe un valor
+valor in colección 
+
+#comprueba si no existe un valor
+valor in not colección
+
+```
+
+> [!NOTE]
+> En los diccionarios, las comprobaciones de pertenencia se aplican a las claves de forma predeterminada
+> **Ejemplo:**
+
+ ```python
+ my_dict = {"name": "Alice", "age": 25}
+ print("name" in my_dict)  # True
+ print("Alice" in my_dict)  # False
+ ```
 
 ---
 
