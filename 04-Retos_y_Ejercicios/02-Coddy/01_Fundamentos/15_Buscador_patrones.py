@@ -15,18 +15,18 @@ def find_occurrences(text, pattern):
 
     # Escribe tu código aquí
     conteo = 0
-    posisiones =  []
+    posiciones =  []
     b_ocurrencias = False
 
     for i in range(len(text)):
 
-        #Verificar coinsidencia de muestra con patron
+        #Verificar coincidencia de muestra con patron
         if text[i:i+len(pattern)] == pattern:
             conteo += 1             # Conteo de ocurrencias
-            posisiones.append(i)    # Agregar Posicion de ocurrencias a lista  
+            posiciones.append(i)    # Agregar Posición de ocurrencias a lista  
             b_ocurrencias = True     # Cambiar estado de bandera de ocurrencias
             
-    resultado = (b_ocurrencias,conteo,posisiones) #Crear tupla de resultados
+    resultado = (b_ocurrencias,conteo,posiciones) #Crear tupla de resultados
     return resultado
 
 # Leer entrada
