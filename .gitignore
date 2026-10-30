@@ -2,3 +2,4 @@ Ignora/
 ~$tas_Python.docx
 notas.txt
 __pycache__/
+.vscode
