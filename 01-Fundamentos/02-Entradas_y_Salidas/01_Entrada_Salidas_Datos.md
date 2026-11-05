@@ -4,16 +4,18 @@
 
 ## Tabla de Contenido
 
-- [Entrada de Datos](#entrada-de-datos)
-  - [Conversión de Tipos (Casteo)](#conversión-de-tipos-casteo)
-  - [Recibir múltiples datos en una sola línea](#recibir-múltiples-datos-en-una-sola-línea)
-  - [Limpieza de datos (Evitar errores del usuario)](#limpieza-de-datos-evitar-errores-del-usuario)
-  - [Validación con try / except (Para que no falle)](#validación-con-try--except-para-que-no-falle)
-- [Salida de Datos](#salida-de-datos)
-  - [Parámetros ocultos](#parámetros-ocultos)
-  - [Caracteres especiales](#caracteres-especiales)
-  - [Trucos visuales](#trucos-visuales)
-- [Ejemplo practico](#ejemplo-practico)
+- [2. Entradas y Salidas de datos (I/O)](#2-entradas-y-salidas-de-datos-io)
+  - [Tabla de Contenido](#tabla-de-contenido)
+  - [Entrada de Datos](#entrada-de-datos)
+    - [Conversión de Tipos (Casteo)](#conversión-de-tipos-casteo)
+    - [Recibir múltiples datos en una sola línea](#recibir-múltiples-datos-en-una-sola-línea)
+    - [Limpieza de datos (Evitar errores del usuario)](#limpieza-de-datos-evitar-errores-del-usuario)
+    - [Validación con try / except (Para que no falle)](#validación-con-try--except-para-que-no-falle)
+  - [Salida de Datos](#salida-de-datos)
+    - [Parámetros ocultos](#parámetros-ocultos)
+    - [Caracteres especiales](#caracteres-especiales)
+    - [Trucos visuales](#trucos-visuales)
+  - [Ejemplo Practico](#ejemplo-practico)
 
 ---
 
@@ -31,7 +33,7 @@ nombre_variable = input("Mensaje opcional")
 
 Por defecto, ``input()`` siempre te va a entregar un texto (``string``), incluso si el usuario escribe un número. Si es necesario hacer matemáticas, se tiene que transformar el tipo.
 
-| Tipo de dato deseado | Codigo para transformar |
+| Tipo de dato deseado | Código para transformar |
 | :--- | :---: |
 | Entero(Sin decimales) | `edad = int(input("Tu edad: "))` |
 | Decimal(Flotante) | `precio = float(input("Precio: "))` |
@@ -74,7 +76,7 @@ while True:
         edad = int(input("Ingrese su edad: "))
         break #Si el numero es válido, rompe el ciclo y continúa
     except ValueError:
-        print("❌ Ingreso un valor invaliddo. Intenta otra vez.")
+        print("❌ Ingreso un valor invalidó. Intenta otra vez.")
 print(f"Tu edad es: {edad} años")
 ```
 
@@ -84,17 +86,17 @@ print(f"Tu edad es: {edad} años")
 
 Para mostrar información en la pantalla, utilizamos la función ``print()``. Esta función toma uno o más argumentos y los muestra en la consola.
 
-- **Combinar Texto y Vatiables**
+- **Combinar Texto y Variables**
 
 | Método | Características | Ejemplos |
 | :---: | :--- | :---: |
 | Separado por comas | Añade un espacio automático entre los elementos | `print("Hola", nombre_variable)` |
 | F-strings | Lleva una f al inicio. Permite meter variables directo entre llaves o  procesar datos antes de imprimirlos | `print(f"Hola {nombre_variable}")` |
-| Metodo ``.format()`` | Usa llaves como sustitutos y los llena en orden al fina | `print("Hola {}".format(nombre_variable))` |
-| Concatenación | Pega los textos. Si la variable es un número, es necesario realisar un casteo a string | `print("Hola" + nombre_variable)` |
+| Método ``.format()`` | Usa llaves como sustitutos y los llena en orden al fina | `print("Hola {}".format(nombre_variable))` |
+| Concatenación | Pega los textos. Si la variable es un número, es necesario realizar un casteo a string | `print("Hola" + nombre_variable)` |
 
 > [!WARNING]
-> Las formas de separacion por comas y concatenear requiere que la variable sea string
+> Las formas de separación por comas y concatenar requiere que la variable sea string
 
 ### Parámetros ocultos
 
